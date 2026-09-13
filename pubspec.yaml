@@ -1,0 +1,63 @@
+name: physics_cbse_app
+description: "Kedar's Physics Engine - Warm Dotted Notebook Edition for CBSE Class 11 & 12, JEE Main, JEE Advanced & NEET"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_markdown: ^0.7.3
+  flutter_math_fork: ^0.7.2
+  flutter_svg: ^2.0.10+1
+  flutter_local_notifications: ^17.2.2
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  markdown: ^7.2.2
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/catalog.json
+    - assets/quotes/
+    - assets/icons/
+    - assets/content/physics_cbse/class_11/01_units_and_measurements/
+    - assets/content/physics_cbse/class_11/02_motion_in_a_straight_line/
+    - assets/content/physics_cbse/class_11/03_motion_in_a_plane/
+    - assets/content/physics_cbse/class_11/04_laws_of_motion/
+    - assets/content/physics_cbse/class_11/05_work_energy_and_power/
+    - assets/content/physics_cbse/class_11/06_system_of_particles_and_rotational_motion/
+    - assets/content/physics_cbse/class_11/07_gravitation/
+    - assets/content/physics_cbse/class_11/08_mechanical_properties_of_solids/
+    - assets/content/physics_cbse/class_11/09_mechanical_properties_of_fluids/
+    - assets/content/physics_cbse/class_11/10_thermal_properties_of_matter/
+    - assets/content/physics_cbse/class_11/11_thermodynamics/
+    - assets/content/physics_cbse/class_11/12_kinetic_theory/
+    - assets/content/physics_cbse/class_11/13_oscillations/
+    - assets/content/physics_cbse/class_11/14_waves/
+    - assets/content/physics_cbse/class_12/01_electrostatics/
+    - assets/content/physics_cbse/class_12/02_current_electricity/
+    - assets/content/physics_cbse/class_12/03_moving_charges_and_magnetism/
+    - assets/content/physics_cbse/class_12/04_magnetism_and_matter/
+    - assets/content/physics_cbse/class_12/05_electromagnetic_induction_and_ac/
+    - assets/content/physics_cbse/class_12/06_electromagnetic_waves/
+    - assets/content/physics_cbse/class_12/07_ray_optics_and_optical_instruments/
+    - assets/content/physics_cbse/class_12/08_wave_optics/
+    - assets/content/physics_cbse/class_12/09_dual_nature_of_radiation_and_matter/
+    - assets/content/physics_cbse/class_12/10_atoms_and_nuclei/
+    - assets/content/physics_cbse/class_12/11_semiconductor_electronics/
