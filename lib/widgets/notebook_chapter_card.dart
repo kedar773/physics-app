@@ -7,6 +7,7 @@ import '../animations/notebook_route_transition.dart';
 import '../models/chapter.dart';
 import '../screens/chapter_detail_screen.dart';
 import '../theme/notebook_colors.dart';
+import 'markdown_latex_view.dart';
 
 class NotebookChapterCard extends StatefulWidget {
   final Chapter chapter;
@@ -292,7 +293,7 @@ class _NotebookChapterCardState extends State<NotebookChapterCard> {
                               color: isDark ? const Color(0xFF44403C) : NotebookColors.hlYellowBorder,
                             ),
                           ),
-                          child: Text(
+                          child: InlineLatexText(
                             kc,
                             style: GoogleFonts.inter(
                               fontSize: 11.5,

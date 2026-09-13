@@ -330,14 +330,9 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                 ],
               ),
               const SizedBox(height: 8),
-              Text(
-                q.question,
-                style: GoogleFonts.inter(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
-                  color: isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal,
-                  height: 1.45,
-                ),
+              MarkdownLatexView(
+                data: q.question,
+                shrinkWrap: true,
               ),
               const SizedBox(height: 10),
               // Step-by-step Solution
@@ -359,14 +354,10 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                         color: isDark ? const Color(0xFFFDE047) : NotebookColors.inkAmber,
                       ),
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      q.explanation,
-                      style: GoogleFonts.inter(
-                        fontSize: 13,
-                        height: 1.45,
-                        color: isDark ? NotebookColors.chalkMuted : NotebookColors.inkCharcoal,
-                      ),
+                    const SizedBox(height: 6),
+                    MarkdownLatexView(
+                      data: q.explanation,
+                      shrinkWrap: true,
                     ),
                   ],
                 ),
@@ -443,14 +434,9 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                 ],
               ),
               const SizedBox(height: 8),
-              Text(
-                q.question,
-                style: GoogleFonts.inter(
-                  fontSize: 14.5,
-                  fontWeight: FontWeight.w600,
-                  height: 1.45,
-                  color: isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal,
-                ),
+              MarkdownLatexView(
+                data: q.question,
+                shrinkWrap: true,
               ),
               const SizedBox(height: 10),
               Container(
@@ -471,13 +457,10 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                         color: isDark ? const Color(0xFF93C5FD) : NotebookColors.inkBlue,
                       ),
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      q.stepMarkingRubric,
-                      style: GoogleFonts.inter(
-                        fontSize: 12.5,
-                        color: isDark ? NotebookColors.chalkMuted : NotebookColors.inkSlate,
-                      ),
+                    const SizedBox(height: 6),
+                    MarkdownLatexView(
+                      data: q.stepMarkingRubric,
+                      shrinkWrap: true,
                     ),
                   ],
                 ),
@@ -622,7 +605,7 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                                 ),
                               ),
                               const SizedBox(height: 2),
-                              Text(
+                              InlineLatexText(
                                 dd.speedHack,
                                 style: GoogleFonts.inter(
                                   fontSize: 12.5,

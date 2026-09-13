@@ -301,8 +301,27 @@ class HomeCurriculumScreen extends ConsumerWidget {
                       return Padding(
                         padding: const EdgeInsets.only(right: 8),
                         child: ChoiceChip(
-                          label: Text(dom),
+                          label: Text(
+                            dom,
+                            style: GoogleFonts.inter(
+                              fontSize: 12,
+                              fontWeight: isSel ? FontWeight.w700 : FontWeight.w500,
+                              color: isSel
+                                  ? Colors.white
+                                  : (isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal),
+                            ),
+                          ),
                           selected: isSel,
+                          selectedColor: isDark ? NotebookColors.physicsBlueAccent : NotebookColors.inkNavy,
+                          backgroundColor: isDark ? const Color(0xFF24211D) : Colors.white,
+                          side: BorderSide(
+                            color: isSel
+                                ? (isDark ? const Color(0xFF93C5FD) : NotebookColors.inkNavy)
+                                : (isDark ? const Color(0xFF44403C) : NotebookColors.borderNotebook),
+                            width: isSel ? 1.5 : 1,
+                          ),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                          showCheckmark: false,
                           onSelected: (val) {
                             if (val) {
                               ref.read(selectedDomainProvider.notifier).state = dom;

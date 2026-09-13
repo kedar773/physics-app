@@ -273,11 +273,13 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                       padding: const EdgeInsets.symmetric(vertical: 14),
                       decoration: BoxDecoration(
                         color: isSel
-                            ? (isDark ? const Color(0xFF1E3A8A) : const Color(0xFFDBEAFE))
+                            ? (isDark ? NotebookColors.physicsBlueAccent : NotebookColors.inkNavy)
                             : (isDark ? const Color(0xFF24211D) : Colors.white),
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
-                          color: isSel ? NotebookColors.inkBlue : Colors.grey.shade300,
+                          color: isSel
+                              ? (isDark ? const Color(0xFF93C5FD) : NotebookColors.inkNavy)
+                              : (isDark ? const Color(0xFF38342E) : Colors.grey.shade300),
                           width: isSel ? 2 : 1,
                         ),
                       ),
@@ -288,12 +290,19 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                             style: GoogleFonts.inter(
                               fontSize: 16,
                               fontWeight: FontWeight.w700,
-                              color: isSel ? NotebookColors.inkBlue : Colors.grey.shade800,
+                              color: isSel
+                                  ? Colors.white
+                                  : (isDark ? NotebookColors.chalkWhite : Colors.grey.shade800),
                             ),
                           ),
                           Text(
                             cls == 11 ? "14 Chapters" : "11 Chapters",
-                            style: GoogleFonts.inter(fontSize: 11, color: Colors.grey),
+                            style: GoogleFonts.inter(
+                              fontSize: 11,
+                              color: isSel
+                                  ? Colors.white.withValues(alpha: 0.85)
+                                  : (isDark ? NotebookColors.chalkMuted : Colors.grey),
+                            ),
                           ),
                         ],
                       ),
@@ -317,8 +326,27 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
             children: _targetExams.map((tgt) {
               final isSel = _selectedTarget == tgt;
               return ChoiceChip(
-                label: Text(tgt),
+                label: Text(
+                  tgt,
+                  style: GoogleFonts.inter(
+                    fontSize: 12.5,
+                    fontWeight: isSel ? FontWeight.w700 : FontWeight.w500,
+                    color: isSel
+                        ? Colors.white
+                        : (isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal),
+                  ),
+                ),
                 selected: isSel,
+                selectedColor: isDark ? NotebookColors.physicsBlueAccent : NotebookColors.inkNavy,
+                backgroundColor: isDark ? const Color(0xFF24211D) : Colors.white,
+                side: BorderSide(
+                  color: isSel
+                      ? (isDark ? const Color(0xFF93C5FD) : NotebookColors.inkNavy)
+                      : (isDark ? const Color(0xFF44403C) : NotebookColors.borderNotebook),
+                  width: isSel ? 1.5 : 1,
+                ),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                showCheckmark: false,
                 onSelected: (val) {
                   if (val) setState(() => _selectedTarget = tgt);
                 },

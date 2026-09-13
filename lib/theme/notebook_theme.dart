@@ -108,6 +108,48 @@ class NotebookTheme {
           ),
         ),
       ),
+      navigationBarTheme: NavigationBarThemeData(
+        indicatorColor: NotebookColors.inkNavy,
+        iconTheme: WidgetStateProperty.resolveWith<IconThemeData>((states) {
+          if (states.contains(WidgetState.selected)) {
+            return const IconThemeData(color: Colors.white);
+          }
+          return const IconThemeData(color: NotebookColors.inkSlate);
+        }),
+        labelTextStyle: WidgetStateProperty.resolveWith<TextStyle>((states) {
+          if (states.contains(WidgetState.selected)) {
+            return TextStyle(
+              fontFamily: primaryFontFamily,
+              fontSize: 12,
+              fontWeight: FontWeight.w700,
+              color: NotebookColors.inkNavy,
+            );
+          }
+          return TextStyle(
+            fontFamily: primaryFontFamily,
+            fontSize: 11.5,
+            fontWeight: FontWeight.w500,
+            color: NotebookColors.inkSlate,
+          );
+        }),
+      ),
+      chipTheme: ChipThemeData(
+        selectedColor: NotebookColors.inkNavy,
+        backgroundColor: Colors.white,
+        labelStyle: TextStyle(
+          fontFamily: primaryFontFamily,
+          fontSize: 12,
+          color: NotebookColors.inkCharcoal,
+        ),
+        secondaryLabelStyle: TextStyle(
+          fontFamily: primaryFontFamily,
+          fontSize: 12,
+          fontWeight: FontWeight.w700,
+          color: Colors.white,
+        ),
+        side: const BorderSide(color: NotebookColors.borderNotebook),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+      ),
     );
   }
 
@@ -213,6 +255,48 @@ class NotebookTheme {
             fontWeight: FontWeight.w700,
           ),
         ),
+      ),
+      navigationBarTheme: NavigationBarThemeData(
+        indicatorColor: NotebookColors.physicsBlueAccent,
+        iconTheme: WidgetStateProperty.resolveWith<IconThemeData>((states) {
+          if (states.contains(WidgetState.selected)) {
+            return const IconThemeData(color: Colors.white);
+          }
+          return const IconThemeData(color: NotebookColors.chalkMuted);
+        }),
+        labelTextStyle: WidgetStateProperty.resolveWith<TextStyle>((states) {
+          if (states.contains(WidgetState.selected)) {
+            return TextStyle(
+              fontFamily: primaryFontFamily,
+              fontSize: 12,
+              fontWeight: FontWeight.w700,
+              color: const Color(0xFF93C5FD),
+            );
+          }
+          return TextStyle(
+            fontFamily: primaryFontFamily,
+            fontSize: 11.5,
+            fontWeight: FontWeight.w500,
+            color: NotebookColors.chalkMuted,
+          );
+        }),
+      ),
+      chipTheme: ChipThemeData(
+        selectedColor: NotebookColors.physicsBlueAccent,
+        backgroundColor: const Color(0xFF24211D),
+        labelStyle: TextStyle(
+          fontFamily: primaryFontFamily,
+          fontSize: 12,
+          color: NotebookColors.chalkWhite,
+        ),
+        secondaryLabelStyle: TextStyle(
+          fontFamily: primaryFontFamily,
+          fontSize: 12,
+          fontWeight: FontWeight.w700,
+          color: Colors.white,
+        ),
+        side: const BorderSide(color: Color(0xFF44403C)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       ),
     );
   }

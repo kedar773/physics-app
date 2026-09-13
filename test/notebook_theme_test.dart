@@ -21,8 +21,12 @@ void main() {
   test('NotebookTheme light and dark theme generation test', () {
     final light = NotebookTheme.lightTheme();
     expect(light.scaffoldBackgroundColor, equals(NotebookColors.bgNotebook));
+    expect(light.navigationBarTheme.indicatorColor, equals(NotebookColors.inkNavy));
+    expect(light.chipTheme.selectedColor, equals(NotebookColors.inkNavy));
 
     final dark = NotebookTheme.darkTheme();
     expect(dark.scaffoldBackgroundColor, equals(NotebookColors.darkBg));
+    expect(dark.navigationBarTheme.indicatorColor, equals(NotebookColors.physicsBlueAccent));
+    expect(dark.chipTheme.selectedColor, equals(NotebookColors.physicsBlueAccent));
   });
 }

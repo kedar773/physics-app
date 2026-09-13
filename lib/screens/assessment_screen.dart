@@ -381,17 +381,21 @@ class _AssessmentScreenState extends ConsumerState<AssessmentScreen> {
 
             Color? bgColor;
             Color? borderColor;
+            Color? textColor;
             if (_isAnswerRevealed) {
               if (isCorrect) {
                 bgColor = isDark ? const Color(0xFF064E3B) : const Color(0xFFDCFCE7);
                 borderColor = const Color(0xFF10B981);
+                textColor = isDark ? Colors.white : const Color(0xFF065F46);
               } else if (isSel) {
                 bgColor = isDark ? const Color(0xFF7F1D1D) : const Color(0xFFFEE2E2);
                 borderColor = Colors.red;
+                textColor = isDark ? Colors.white : const Color(0xFF991B1B);
               }
             } else if (isSel) {
-              bgColor = isDark ? const Color(0xFF1E3A8A) : const Color(0xFFDBEAFE);
-              borderColor = NotebookColors.inkBlue;
+              bgColor = isDark ? NotebookColors.physicsBlueAccent : NotebookColors.inkNavy;
+              borderColor = isDark ? const Color(0xFF93C5FD) : NotebookColors.inkNavy;
+              textColor = Colors.white;
             }
 
             return Padding(
@@ -428,12 +432,12 @@ class _AssessmentScreenState extends ConsumerState<AssessmentScreen> {
                           child: Icon(Icons.cancel, color: Colors.red, size: 18),
                         ),
                       Expanded(
-                        child: Text(
+                        child: InlineLatexText(
                           opt,
                           style: GoogleFonts.inter(
                             fontSize: 13.5,
                             fontWeight: isSel ? FontWeight.w700 : FontWeight.w500,
-                            color: isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal,
+                            color: textColor ?? (isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal),
                           ),
                         ),
                       ),
@@ -496,7 +500,7 @@ class _AssessmentScreenState extends ConsumerState<AssessmentScreen> {
                     color: isDark ? const Color(0xFF2E2718) : NotebookColors.stickyYellow,
                     borderRadius: BorderRadius.circular(6),
                   ),
-                  child: Text(
+                  child: InlineLatexText(
                     q.stepMarkingRubric,
                     style: GoogleFonts.inter(
                       fontSize: 11.5,

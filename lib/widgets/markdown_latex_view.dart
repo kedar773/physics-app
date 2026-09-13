@@ -257,6 +257,10 @@ class MarkdownLatexView extends StatelessWidget {
         color: isDark ? const Color(0xFF38342E) : NotebookColors.borderNotebook,
         width: 1,
       ),
+      tableColumnWidth: const IntrinsicColumnWidth(),
+      tableScrollbarThumbVisibility: true,
+      tablePadding: const EdgeInsets.symmetric(vertical: 8),
+      tableCellsPadding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
       tableHead: TextStyle(
         fontFamily: titleFont,
         fontSize: 14.0 * fontScale,
@@ -405,5 +409,106 @@ class MarkdownLatexView extends StatelessWidget {
     );
 
     return result;
+  }
+}
+
+/// Lightweight inline renderer for mixed text and LaTeX expressions ($...$).
+/// Useful for formula chips, MCQ options, rubrics, and card labels.
+class InlineLatexText extends StatelessWidget {
+  final String text;
+  final TextStyle? style;
+  final TextStyle? mathStyle;
+  final TextAlign textAlign;
+  final int? maxLines;
+  final TextOverflow overflow;
+
+  const InlineLatexText(
+    this.text, {
+    super.key,
+    this.style,
+    this.mathStyle,
+    this.textAlign = TextAlign.start,
+    this.maxLines,
+    this.overflow = TextOverflow.clip,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (!text.contains(r'$')) {
+      return Text(
+        text,
+        style: style,
+        textAlign: textAlign,
+        maxLines: maxLines,
+        overflow: overflow,
+      );
+    }
+
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final defaultMathColor = isDark ? const Color(0xFF93C5FD) : NotebookColors.inkBlue;
+    final effectiveMathStyle = (mathStyle ?? style ?? const TextStyle()).copyWith(
+      color: mathStyle?.color ?? defaultMathColor,
+      fontWeight: FontWeight.w600,
+    );
+
+    // Matches $...$ and $$...$$
+    final pattern = RegExp(r'(?<!\\)\${1,2}([\s\S]+?)\${1,2}');
+    final spans = <InlineSpan>[];
+    var lastIndex = 0;
+
+    for (final match in pattern.allMatches(text)) {
+      if (match.start > lastIndex) {
+        spans.add(TextSpan(
+          text: text.substring(lastIndex, match.start),
+          style: style,
+        ));
+      }
+
+      var rawMath = match.group(1) ?? '';
+      rawMath = rawMath.trim();
+      if (rawMath.isNotEmpty) {
+        rawMath = rawMath
+            .replaceAll(r'\longrightarrow', r'\to')
+            .replaceAll(r'\Longleftrightarrow', r'\iff');
+
+        spans.add(WidgetSpan(
+          alignment: PlaceholderAlignment.middle,
+          baseline: TextBaseline.alphabetic,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 2.0),
+            child: Math.tex(
+              rawMath,
+              textStyle: effectiveMathStyle,
+              mathStyle: MathStyle.text,
+              onErrorFallback: (err) {
+                return Text(
+                  rawMath,
+                  style: effectiveMathStyle.copyWith(
+                    color: NotebookColors.inkCrimson,
+                    fontFamily: 'monospace',
+                  ),
+                );
+              },
+            ),
+          ),
+        ));
+      }
+
+      lastIndex = match.end;
+    }
+
+    if (lastIndex < text.length) {
+      spans.add(TextSpan(
+        text: text.substring(lastIndex),
+        style: style,
+      ));
+    }
+
+    return RichText(
+      text: TextSpan(children: spans),
+      textAlign: textAlign,
+      maxLines: maxLines,
+      overflow: overflow,
+    );
   }
 }

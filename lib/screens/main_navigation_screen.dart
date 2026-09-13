@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../theme/notebook_colors.dart';
 import 'analytics_screen.dart';
 import 'assessment_screen.dart';
@@ -48,36 +49,62 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
             ),
           ],
         ),
-        child: NavigationBar(
-          selectedIndex: _currentIndex,
-          onDestinationSelected: (idx) => setState(() => _currentIndex = idx),
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          indicatorColor: isDark
-              ? const Color(0xFF1E3A8A)
-              : NotebookColors.hlYellow.withValues(alpha: 0.8),
-          destinations: const [
-            NavigationDestination(
-              icon: Icon(Icons.menu_book_outlined),
-              selectedIcon: Icon(Icons.menu_book, color: NotebookColors.inkBlue),
-              label: "Curriculum",
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.quiz_outlined),
-              selectedIcon: Icon(Icons.quiz, color: NotebookColors.inkBlue),
-              label: "Practice",
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.calendar_month_outlined),
-              selectedIcon: Icon(Icons.calendar_month, color: NotebookColors.inkBlue),
-              label: "Planner",
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.bar_chart_outlined),
-              selectedIcon: Icon(Icons.bar_chart, color: NotebookColors.inkBlue),
-              label: "Analytics",
-            ),
-          ],
+        child: NavigationBarTheme(
+          data: NavigationBarThemeData(
+            indicatorColor: isDark
+                ? NotebookColors.physicsBlueAccent
+                : NotebookColors.inkNavy,
+            labelTextStyle: WidgetStateProperty.resolveWith<TextStyle>((states) {
+              if (states.contains(WidgetState.selected)) {
+                return GoogleFonts.inter(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w700,
+                  color: isDark ? const Color(0xFF93C5FD) : NotebookColors.inkNavy,
+                );
+              }
+              return GoogleFonts.inter(
+                fontSize: 11.5,
+                fontWeight: FontWeight.w500,
+                color: isDark ? NotebookColors.chalkMuted : NotebookColors.inkSlate,
+              );
+            }),
+            iconTheme: WidgetStateProperty.resolveWith<IconThemeData>((states) {
+              if (states.contains(WidgetState.selected)) {
+                return const IconThemeData(color: Colors.white);
+              }
+              return IconThemeData(
+                color: isDark ? NotebookColors.chalkMuted : NotebookColors.inkSlate,
+              );
+            }),
+          ),
+          child: NavigationBar(
+            selectedIndex: _currentIndex,
+            onDestinationSelected: (idx) => setState(() => _currentIndex = idx),
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+            destinations: const [
+              NavigationDestination(
+                icon: Icon(Icons.menu_book_outlined),
+                selectedIcon: Icon(Icons.menu_book),
+                label: "Curriculum",
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.quiz_outlined),
+                selectedIcon: Icon(Icons.quiz),
+                label: "Practice",
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.calendar_month_outlined),
+                selectedIcon: Icon(Icons.calendar_month),
+                label: "Planner",
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.bar_chart_outlined),
+                selectedIcon: Icon(Icons.bar_chart),
+                label: "Analytics",
+              ),
+            ],
+          ),
         ),
       ),
     );
