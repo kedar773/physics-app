@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.kedar.physics" "\0"
-            VALUE "FileDescription", "physics_cbse_app" "\0"
+            VALUE "FileDescription", "Kedar's Physics Engine" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "physics_cbse_app" "\0"
+            VALUE "InternalName", "kedars_physics_engine" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.kedar.physics. All rights reserved." "\0"
-            VALUE "OriginalFilename", "physics_cbse_app.exe" "\0"
-            VALUE "ProductName", "physics_cbse_app" "\0"
+            VALUE "OriginalFilename", "kedars_physics_engine.exe" "\0"
+            VALUE "ProductName", "Kedar's Physics Engine" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

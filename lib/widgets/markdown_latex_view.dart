@@ -408,6 +408,37 @@ class MarkdownLatexView extends StatelessWidget {
       (m) => '\$${m[1]}\$${m[2]}',
     );
 
+    // 9. Convert HTML tags (<strong>, <code>, <br/>, etc.) to Markdown and strip artifacts
+    result = result.replaceAll(RegExp(r'<label\s+class="step-check-label"[\s\S]*?</label>', caseSensitive: false), '');
+    result = result.replaceAll(RegExp(r'<input\s+type="checkbox"[^>]*>', caseSensitive: false), '');
+    result = result.replaceAll("I Understand This Solution Step", '');
+    result = result.replaceAll(RegExp(r'<strong>\s*Tag:\s*</strong>\s*(?:<code>[^<]*</code>)?\s*(?:<br\s*/?>)?\s*', caseSensitive: false), '');
+    result = result.replaceAll(RegExp(r'<strong>\s*Priority:\s*</strong>\s*(?:<code>[^<]*</code>|[⭐]+|\[[^\]]*\])?\s*(?:<br\s*/?>)?\s*', caseSensitive: false), '');
+    result = result.replaceAll(RegExp(r'<strong>\s*Problem Statement:\s*</strong>\s*(?:<br\s*/?>)?\s*', caseSensitive: false), '');
+
+    result = result.replaceAllMapped(RegExp(r'<strong>\s*([\s\S]*?)\s*</strong>', caseSensitive: false), (m) => '**${m.group(1)}**');
+    result = result.replaceAllMapped(RegExp(r'<b>\s*([\s\S]*?)\s*</b>', caseSensitive: false), (m) => '**${m.group(1)}**');
+    result = result.replaceAllMapped(RegExp(r'<em>\s*([\s\S]*?)\s*</em>', caseSensitive: false), (m) => '*${m.group(1)}*');
+    result = result.replaceAllMapped(RegExp(r'<i>\s*([\s\S]*?)\s*</i>', caseSensitive: false), (m) => '*${m.group(1)}*');
+    result = result.replaceAllMapped(RegExp(r'<code>\s*([\s\S]*?)\s*</code>', caseSensitive: false), (m) => '`${m.group(1)}`');
+
+    result = result.replaceAll(RegExp(r'<br\s*/?>', caseSensitive: false), '\n');
+    result = result.replaceAll(RegExp(r'<hr\s*/?>', caseSensitive: false), '\n\n---\n\n');
+    result = result.replaceAllMapped(RegExp(r'<li>\s*([\s\S]*?)\s*</li>', caseSensitive: false), (m) => '\n- ${m.group(1)}');
+    result = result.replaceAll(RegExp(r'</?(?:ul|ol|li)[^>]*>', caseSensitive: false), '\n');
+    result = result.replaceAll(RegExp(r'</?(?:p|div|span|blockquote|details|summary|h[1-6])[^>]*>', caseSensitive: false), ' ');
+    result = result.replaceAll(RegExp(r'</?[a-zA-Z0-9]+[^>]*>'), ' ');
+
+    result = result.replaceAll('&nbsp;', ' ')
+                   .replaceAll('&amp;', '&')
+                   .replaceAll('&lt;', '<')
+                   .replaceAll('&gt;', '>')
+                   .replaceAll('&times;', '×')
+                   .replaceAll('&pm;', '±')
+                   .replaceAll('&deg;', '°')
+                   .replaceAll('&quot;', '"')
+                   .replaceAll('&#39;', "'");
+
     return result;
   }
 }
@@ -432,11 +463,32 @@ class InlineLatexText extends StatelessWidget {
     this.overflow = TextOverflow.clip,
   });
 
+  static String _cleanInlineText(String raw) {
+    var r = raw;
+    r = r.replaceAll(RegExp(r'<label\s+class="step-check-label"[\s\S]*?</label>', caseSensitive: false), '');
+    r = r.replaceAll(RegExp(r'<input[^>]*>', caseSensitive: false), '');
+    r = r.replaceAll("I Understand This Solution Step", '');
+    r = r.replaceAll(RegExp(r'</?(?:strong|b|em|i|code|br|hr|p|div|span|ul|ol|li)[^>]*>', caseSensitive: false), '');
+    r = r.replaceAll(RegExp(r'</?[a-zA-Z0-9]+[^>]*>'), '');
+    r = r.replaceAll('&nbsp;', ' ')
+         .replaceAll('&amp;', '&')
+         .replaceAll('&lt;', '<')
+         .replaceAll('&gt;', '>')
+         .replaceAll('&times;', '×')
+         .replaceAll('&pm;', '±')
+         .replaceAll('&deg;', '°')
+         .replaceAll('&quot;', '"')
+         .replaceAll('&#39;', "'");
+    return r.trim();
+  }
+
   @override
   Widget build(BuildContext context) {
-    if (!text.contains(r'$')) {
+    final clean = _cleanInlineText(text);
+
+    if (!clean.contains(r'$')) {
       return Text(
-        text,
+        clean,
         style: style,
         textAlign: textAlign,
         maxLines: maxLines,
@@ -456,10 +508,10 @@ class InlineLatexText extends StatelessWidget {
     final spans = <InlineSpan>[];
     var lastIndex = 0;
 
-    for (final match in pattern.allMatches(text)) {
+    for (final match in pattern.allMatches(clean)) {
       if (match.start > lastIndex) {
         spans.add(TextSpan(
-          text: text.substring(lastIndex, match.start),
+          text: clean.substring(lastIndex, match.start),
           style: style,
         ));
       }
@@ -497,9 +549,9 @@ class InlineLatexText extends StatelessWidget {
       lastIndex = match.end;
     }
 
-    if (lastIndex < text.length) {
+    if (lastIndex < clean.length) {
       spans.add(TextSpan(
-        text: text.substring(lastIndex),
+        text: clean.substring(lastIndex),
         style: style,
       ));
     }

@@ -1,6 +1,6 @@
 {
-    "name": "physics_cbse_app",
-    "short_name": "physics_cbse_app",
+    "name": "Kedar's Physics Engine",
+    "short_name": "Physics Engine",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
