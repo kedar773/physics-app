@@ -4,13 +4,13 @@ chapter: "Electromagnetic Induction and Alternating Current"
 part: 1 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:54"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Magnetic Flux, Faraday's Laws of Induction & Lenz's Law
 
@@ -809,4 +809,4 @@ $$
    - $[B \cdot v \cdot l] = [\text{Volt}]$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

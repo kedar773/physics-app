@@ -4,13 +4,13 @@ chapter: "Dual Nature of Radiation and Matter"
 part: 2 of 6
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:42"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Observations, Characteristic Curves & Failure of Classical Wave Theory
 
@@ -674,4 +674,4 @@ $$
   Always equals $\frac{h}{e}$. Never changes, regardless of the metal. If an exam paper asks: *"A graph is plotted for Sodium and Copper; which will have a steeper slope?"* Answer: **Both have identical slopes.**
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

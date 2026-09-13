@@ -4,13 +4,13 @@ chapter: "Magnetism and Matter"
 part: 4 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:35"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Magnetization, Magnetic Intensity (H), Permeability & Magnetic Susceptibility
 
@@ -710,4 +710,4 @@ $$
   * $\mu_r = 1400 \implies$ Ferromagnetic ($\mu_r \gg 1$)
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

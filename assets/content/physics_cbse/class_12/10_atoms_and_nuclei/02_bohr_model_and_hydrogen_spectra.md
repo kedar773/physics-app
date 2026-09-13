@@ -4,13 +4,13 @@ chapter: "Atoms and Nuclei"
 part: 2 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:56"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Bohr's Atomic Model, Energy Levels & Line Spectra of Hydrogen Atom
 
@@ -734,4 +734,4 @@ $$
    * $E_5 = -0.54\text{ eV}$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

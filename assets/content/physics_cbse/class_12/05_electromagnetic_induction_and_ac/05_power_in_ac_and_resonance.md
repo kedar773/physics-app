@@ -4,13 +4,13 @@ chapter: "Electromagnetic Induction and Alternating Current"
 part: 5 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:57"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Power in AC Circuits, Power Factor, Wattless Current & Sharpness of Resonance
 
@@ -775,4 +775,4 @@ $$
    The bandwidth depends **only on $R$ and $L$**; it is completely independent of the capacitance $C$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

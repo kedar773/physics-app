@@ -4,13 +4,13 @@ chapter: "Electromagnetic Induction and Alternating Current"
 part: 2 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:55"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Motional EMF, Induced Electric Field & Eddy Currents
 
@@ -493,4 +493,4 @@ $$
    *(where $d$ is lamination thickness).* Halving the lamination sheet thickness cuts eddy current power dissipation to $\frac{1}{4}$ of its original value.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

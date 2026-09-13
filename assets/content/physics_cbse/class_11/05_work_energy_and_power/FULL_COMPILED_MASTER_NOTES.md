@@ -2,17 +2,17 @@
 title: "CBSE Class 11 Physics: Work, Energy and Power - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:54"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 11 Physics: Work, Energy and Power
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Scalar Product of Vectors & Work Done by Constant and Variable Forces
 
@@ -942,7 +942,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kinetic Energy & The Work-Energy Theorem for Constant and Variable Forces
 
@@ -1512,7 +1512,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Conservative Forces, Potential Energy & Conservation of Mechanical Energy
 
@@ -2370,7 +2370,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Potential Energy of a Spring & Motion in a Vertical Circle
 
@@ -2988,7 +2988,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Power, Elastic and Inelastic Collisions in One and Two Dimensions
 
@@ -3879,7 +3879,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -5410,7 +5410,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -5913,4 +5913,4 @@ Before finalizing any numerical response on your answer sheet:
 4. **Final Presentation:** Box final numerical answers with the explicit SI unit (e.g., $\mathbf{W = -14.7\text{ J}}$). Include a concluding sentence stating physical direction or context where appropriate.
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Gravitation"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:11"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Acceleration Due to Gravity (g) and Its Variation with Altitude and Depth
 
@@ -597,4 +597,4 @@ g_p = g_E (u \cdot v)
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -2,17 +2,17 @@
 title: "CBSE Class 11 Physics: Units and Measurements - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:11"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 11 Physics: Units and Measurements
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Need for Measurement, SI Base & Supplementary Units, and Derived Quantities
 
@@ -776,7 +776,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Measurement of Length, Mass, and Time (Ranges, Estimation & Parallax Method)
 
@@ -1370,7 +1370,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Systematic & Random Errors, Absolute, Relative, Percentage Error and Combination of Errors
 
@@ -2104,7 +2104,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Significant Figures, Rules for Arithmetic Operations, and Rounding Off
 
@@ -2644,7 +2644,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Dimensions and Dimensional Formulae of Physical Quantities
 
@@ -3668,7 +3668,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Principle of Homogeneity and Applications of Dimensional Analysis with Limitations
 
@@ -4509,7 +4509,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -5532,7 +5532,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -5762,4 +5762,4 @@ $$
 4. **Always put square brackets around dimensional expressions:** $[M^a L^b T^c]$.
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

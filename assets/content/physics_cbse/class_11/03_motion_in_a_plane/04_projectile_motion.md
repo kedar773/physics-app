@@ -4,13 +4,13 @@ chapter: "Motion in a Plane"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:28"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Projectile Motion: Trajectory, Maximum Height, Time of Flight & Horizontal Range
 
@@ -653,4 +653,4 @@ $$
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

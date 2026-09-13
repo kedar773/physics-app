@@ -4,13 +4,13 @@ chapter: "Atoms and Nuclei"
 part: 5 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:58"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Mass-Energy Equivalence, Mass Defect & Binding Energy per Nucleon Curve
 
@@ -676,4 +676,4 @@ $$
    * Tail: $^{238}\text{U}$ at $7.6 \text{ MeV/nucleon}$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

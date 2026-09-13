@@ -4,13 +4,13 @@ chapter: "Ray Optics and Optical Instruments"
 part: 5 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:35"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Refraction through a Prism, Angle of Minimum Deviation & Dispersion
 
@@ -622,4 +622,4 @@ $$
   Angular dispersion $\theta = \omega \cdot \delta_Y$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

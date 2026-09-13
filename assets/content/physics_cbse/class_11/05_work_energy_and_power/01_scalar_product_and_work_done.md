@@ -4,13 +4,13 @@ chapter: "Work, Energy and Power"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:49"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Scalar Product of Vectors & Work Done by Constant and Variable Forces
 
@@ -936,4 +936,4 @@ $$
 | **Work Done on Spring** | $W_{\text{ext}} = +\frac{1}{2}k(x_f^2 - x_i^2)$ | Stored as Elastic Potential Energy |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "System of Particles and Rotational Motion"
 part: 2 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:00"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Linear Momentum Conservation, Centre of Mass Frame & Vector Product of Vectors
 
@@ -725,4 +725,4 @@ $$
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Electromagnetic Waves"
 part: 5 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:36"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electromagnetic Spectrum II: Visible Light, Ultraviolet, X-rays & Gamma Rays
 
@@ -478,4 +478,4 @@ $$
 * **Human optical retina / Photosynthesis:** Visible Light
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

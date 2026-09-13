@@ -4,13 +4,13 @@ chapter: "Laws of Motion"
 part: 4 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:39"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Equilibrium of Concurrent Forces & Free Body Diagrams
 
@@ -608,4 +608,4 @@ $$
 * This eliminates the need to decompose the Normal Reaction $N$, reducing algebraic errors to near zero.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

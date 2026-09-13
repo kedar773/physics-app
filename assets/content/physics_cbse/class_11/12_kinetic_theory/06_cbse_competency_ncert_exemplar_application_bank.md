@@ -4,13 +4,13 @@ chapter: "Kinetic Theory"
 part: 6 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:08"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -835,4 +835,4 @@ $$
   *(Marking: $1$ Mark: $1/2$ for substitution, $1/2$ for final answer $\approx 8.5\text{ km}$ with units)*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

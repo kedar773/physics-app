@@ -4,13 +4,13 @@ chapter: "Gravitation"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:10"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kepler's Laws of Planetary Motion & Newton's Universal Law of Gravitation
 
@@ -786,4 +786,4 @@ F' = 4F \quad (400\% \text{ of initial})
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Solids"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:21"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Moduli of Elasticity: Young's Modulus, Shear Modulus & Bulk Modulus
 
@@ -622,4 +622,4 @@ $$
    Note that $\Delta L_{\text{self}}$ depends on $L^2$ and is independent of the cross-sectional area $A$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

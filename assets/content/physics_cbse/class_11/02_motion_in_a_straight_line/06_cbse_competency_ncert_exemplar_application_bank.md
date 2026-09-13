@@ -4,13 +4,13 @@ chapter: "Motion in a Straight Line"
 part: 6 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:19"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -1050,4 +1050,4 @@ $$
 - **$1/2$ Mark:** Final answer highlighted with correct significant figures and mandatory SI units ($\text{m/s}$, $\text{m/s}^2$, $\text{s}$, $\text{m}$). Deduction of $1/2$ mark applies for missing or incorrect units.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

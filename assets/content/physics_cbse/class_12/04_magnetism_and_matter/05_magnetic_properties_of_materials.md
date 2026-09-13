@@ -4,13 +4,13 @@ chapter: "Magnetism and Matter"
 part: 5 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:35"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Classification of Magnetic Materials: Diamagnetism, Paramagnetism & Ferromagnetism
 
@@ -530,4 +530,4 @@ Remember that relative permeability is anchored at $1$:
 ```
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

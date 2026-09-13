@@ -4,13 +4,13 @@ chapter: "Motion in a Straight Line"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:17"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kinematic Equations for Uniformly Accelerated Motion (Calculus & Graphical Derivations)
 
@@ -662,4 +662,4 @@ $$
   * Speed upon returning to launch height: $v = u$ (downward direction).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

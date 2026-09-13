@@ -4,13 +4,13 @@ chapter: "Work, Energy and Power"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:50"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Conservative Forces, Potential Energy & Conservation of Mechanical Energy
 
@@ -865,4 +865,4 @@ $$
   While the absolute values of $U$ and total mechanical energy $E$ depend on the choice of datum line ($U = 0$), all observable physical quantities—such as speed $v = \sqrt{\frac{2(E - U)}{m}}$, acceleration $a = -\frac{1}{m}\frac{dU}{dx}$, and time of travel—are completely independent of the reference level chosen.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Thermodynamics"
 part: 6 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:01"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -923,4 +923,4 @@ $$
 | **C3** | NCERT Exemplar | First Law for non-standard path ($P = \alpha V$), differential capacity $C = 2R$ | 3 |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

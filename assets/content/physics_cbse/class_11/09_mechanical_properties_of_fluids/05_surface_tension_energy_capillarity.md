@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Fluids"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:37"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Surface Phenomena: Surface Energy, Surface Tension, Excess Pressure & Capillary Rise
 
@@ -879,4 +879,4 @@ $$
 - **Antiseptics have low surface tension:** This allows them to spread rapidly and cover large surface areas over wounds.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

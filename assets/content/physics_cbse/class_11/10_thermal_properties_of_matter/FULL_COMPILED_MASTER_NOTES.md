@@ -2,17 +2,17 @@
 title: "CBSE Class 11 Physics: Thermal Properties of Matter - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:54"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 11 Physics: Thermal Properties of Matter
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Temperature Scales, Thermometry & Thermal Expansion in Solids, Liquids and Gases
 
@@ -999,7 +999,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Heat Capacity, Specific Heat Capacity & Principle of Calorimetry
 
@@ -1649,7 +1649,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Change of State, Latent Heat, Triple Point & Regelation
 
@@ -2310,7 +2310,7 @@ When equal masses $m$ of ice at $0^\circ\text{C}$ and water at $T_w^\circ\text{C
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Conduction, Coefficient of Thermal Conductivity & Convective Heat Transfer
 
@@ -3316,7 +3316,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Thermal Radiation, Blackbody Radiation, Wien's Displacement Law, Stefan-Boltzmann Law & Newton's Law of Cooling
 
@@ -4214,7 +4214,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -5469,7 +5469,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -5734,4 +5734,4 @@ $$
 | **Cooling Constant ($k$)** | $k = \frac{4 e \sigma A T_0^3}{m s}$ | $\text{s}^{-1}$ | $[\text{M}^0 \text{L}^0 \text{T}^{-1} \text{K}^0]$ |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

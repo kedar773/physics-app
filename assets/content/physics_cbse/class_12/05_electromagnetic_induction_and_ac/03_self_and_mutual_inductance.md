@@ -4,13 +4,13 @@ chapter: "Electromagnetic Induction and Alternating Current"
 part: 3 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:56"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Self-Inductance, Mutual Inductance & Magnetic Energy Storage
 
@@ -675,4 +675,4 @@ $$
    - Opposing flux: $L_{\text{eq}} = L_1 + L_2 - 2M$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

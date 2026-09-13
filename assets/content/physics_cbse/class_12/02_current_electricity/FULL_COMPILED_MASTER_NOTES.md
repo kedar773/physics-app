@@ -2,17 +2,17 @@
 title: "CBSE Class 12 Physics: Current Electricity - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:19"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 12 Physics: Current Electricity
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Current, Drift Velocity, Mobility & Microscopic and Macroscopic Ohm's Law
 
@@ -658,7 +658,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electrical Resistivity, Temperature Dependence of Resistance & Resistor Combinations
 
@@ -1438,7 +1438,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electromotive Force (EMF), Internal Resistance, Terminal Potential Difference & Cells in Series/Parallel
 
@@ -2307,7 +2307,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electrical Energy, Electric Power & Maximum Power Transfer Theorem
 
@@ -2994,7 +2994,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kirchhoff's Rules (KCL, KVL) & Wheatstone Bridge Principle with Applications
 
@@ -3706,7 +3706,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -4577,7 +4577,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -4781,4 +4781,4 @@ $$
 | **Wheatstone Bridge Balance** | $\frac{R_1}{R_2} = \frac{R_3}{R_4} \implies I_g = 0$ | Dimensionless | $[\text{M}^0\text{L}^0\text{T}^0\text{A}^0]$ |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

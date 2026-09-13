@@ -4,13 +4,13 @@ chapter: "Electrostatics"
 part: 5 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:16"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electrostatics of Conductors, Dielectrics, Electric Polarization, and Bound Charges
 
@@ -764,4 +764,4 @@ E_{\text{dielectric net}} = E_0 - E_p = \frac{E_0}{K}
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

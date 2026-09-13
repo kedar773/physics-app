@@ -4,13 +4,13 @@ chapter: "Moving Charges and Magnetism"
 part: 1 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:25"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Lorentz Magnetic Force, Motion of Charged Particles in Uniform Fields & Helical Paths
 
@@ -555,4 +555,4 @@ $$
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

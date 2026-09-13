@@ -2,17 +2,17 @@
 title: "CBSE Class 12 Physics: Electromagnetic Induction and Alternating Current - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:04"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 12 Physics: Electromagnetic Induction and Alternating Current
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Magnetic Flux, Faraday's Laws of Induction & Lenz's Law
 
@@ -812,7 +812,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Motional EMF, Induced Electric Field & Eddy Currents
 
@@ -1298,7 +1298,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Self-Inductance, Mutual Inductance & Magnetic Energy Storage
 
@@ -1966,7 +1966,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # AC Voltage Applied to R, L, C and Series LCR Circuits with Phasors
 
@@ -2638,7 +2638,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Power in AC Circuits, Power Factor, Wattless Current & Sharpness of Resonance
 
@@ -3406,7 +3406,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # LC Oscillations, AC Generator & Transformers
 
@@ -4115,7 +4115,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -4537,7 +4537,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -4675,4 +4675,4 @@ $$
 > **High-Frequency Dimensional Check**: Notice that the dimension of $\sqrt{LC}$, $\frac{L}{R}$, and $RC$ is strictly **Time** ($[\text{T}^1]$). Whenever you need to cross-check ratios in derivation or MCQs, use this property to detect inverted terms instantly.
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

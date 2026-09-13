@@ -4,13 +4,13 @@ chapter: "wave optics"
 part: 4 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 16:40"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Diffraction of Light at a Single Slit & Central Maximum Angular Width
 
@@ -559,4 +559,4 @@ Z_F = \frac{a^2}{\lambda}
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

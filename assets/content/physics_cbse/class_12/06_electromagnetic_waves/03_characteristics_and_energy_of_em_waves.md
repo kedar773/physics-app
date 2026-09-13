@@ -4,13 +4,13 @@ chapter: "Electromagnetic Waves"
 part: 3 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:35"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Velocity, Energy Density, Momentum & Intensity of EM Waves
 
@@ -747,4 +747,4 @@ $$
    Doubling the distance from an antenna drops the intensity by a factor of $4$, and drops field amplitudes $E_0$ and $B_0$ by a factor of $2$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

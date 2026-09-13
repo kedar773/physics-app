@@ -4,13 +4,13 @@ chapter: "Ray Optics and Optical Instruments"
 part: 6 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:35"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Optical Instruments: Simple & Compound Microscopes, Astronomical & Terrestrial Telescopes
 
@@ -590,4 +590,4 @@ $$
   Use this single relation to solve intermediate image dimensions without writing full lens equations.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

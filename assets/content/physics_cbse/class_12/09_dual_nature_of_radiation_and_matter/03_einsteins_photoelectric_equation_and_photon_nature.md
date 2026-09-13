@@ -4,13 +4,13 @@ chapter: "Dual Nature of Radiation and Matter"
 part: 3 of 6
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:42"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Einstein's Photoelectric Equation, Work Function & Photon Picture of Light
 
@@ -568,4 +568,4 @@ $$
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

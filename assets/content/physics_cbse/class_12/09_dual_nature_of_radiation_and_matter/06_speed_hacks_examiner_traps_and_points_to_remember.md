@@ -4,13 +4,13 @@ chapter: "Dual Nature of Radiation and Matter"
 part: 6 of 6
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:44"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -215,4 +215,4 @@ $$
 | $\text{J}\cdot\text{s}$ | $[M^1 L^2 T^{-1}]$ | Has identical dimensions to **Angular Momentum** ($[M L^2 T^{-1}]$). |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

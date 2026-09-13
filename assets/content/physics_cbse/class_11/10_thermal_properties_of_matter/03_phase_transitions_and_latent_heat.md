@@ -4,13 +4,13 @@ chapter: "Thermal Properties of Matter"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:51"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Change of State, Latent Heat, Triple Point & Regelation
 
@@ -668,4 +668,4 @@ When equal masses $m$ of ice at $0^\circ\text{C}$ and water at $T_w^\circ\text{C
 4. **Cooking on High Altitudes:** Atmospheric pressure $P_{\text{atm}}$ is lower at high altitudes, which depresses the boiling point of water below $100^\circ\text{C}$. Open boiling cannot supply sufficient thermal energy/temperature to cook pulses and meats; hence, a **pressure cooker** (raising $P$ to $\sim 2\text{ atm}$, elevating $T_b$ to $\approx 120^\circ\text{C}$) is required.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

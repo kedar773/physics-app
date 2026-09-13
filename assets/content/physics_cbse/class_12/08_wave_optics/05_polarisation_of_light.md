@@ -4,13 +4,13 @@ chapter: "wave optics"
 part: 5 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 16:41"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Polarisation of Light, Brewster's Law & Malus's Law
 
@@ -536,4 +536,4 @@ i_p + r = 90^\circ
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

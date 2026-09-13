@@ -4,13 +4,13 @@ chapter: "Thermal Properties of Matter"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:53"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Thermal Radiation, Blackbody Radiation, Wien's Displacement Law, Stefan-Boltzmann Law & Newton's Law of Cooling
 
@@ -905,4 +905,4 @@ $$
    * Human body: $T \approx 310\text{ K} \implies \lambda_m \approx \dfrac{2.9 \times 10^{-3}}{310} \approx 9.35 \times 10^{-6}\text{ m} \approx 9.4\,\mu\text{m}$ (far infrared).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

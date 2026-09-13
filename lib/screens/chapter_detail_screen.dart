@@ -33,7 +33,7 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 4, vsync: this);
+    _tabController = TabController(length: 5, vsync: this);
   }
 
   @override
@@ -54,191 +54,6 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
       return const MascotPhotonWidget(size: 74, mode: PhotonMascotMode.bohrJump);
     }
     return const MascotAmpWidget(size: 74, mode: AmpMascotMode.emWave);
-  }
-
-  void _openDeepDivesSheet(BuildContext context, bool isDark) {
-    final ch = widget.chapter;
-    showModalBottomSheet(
-      context: context,
-      isScrollControlled: true,
-      backgroundColor: Colors.transparent,
-      builder: (ctx) {
-        return Container(
-          height: MediaQuery.of(context).size.height * 0.85,
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          decoration: BoxDecoration(
-            color: isDark ? NotebookColors.darkPage : NotebookColors.bgPage,
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
-            border: Border.all(
-              color: isDark ? const Color(0xFF38342E) : NotebookColors.borderNotebook,
-              width: 1.5,
-            ),
-          ),
-          child: Column(
-            children: [
-              // Drag Handle
-              Container(
-                width: 40,
-                height: 4,
-                decoration: BoxDecoration(
-                  color: Colors.grey.shade400,
-                  borderRadius: BorderRadius.circular(2),
-                ),
-              ),
-              const SizedBox(height: 12),
-
-              // Header
-              Row(
-                children: [
-                  const Text("🚀 ", style: TextStyle(fontSize: 20)),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Advanced Studies: JEE Main • Advanced • NEET",
-                          style: TextStyle(
-                            fontFamily: GoogleFonts.kalam().fontFamily,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w700,
-                            color: isDark ? const Color(0xFFC084FC) : NotebookColors.inkPurple,
-                          ),
-                        ),
-                        Text(
-                          "Competitive Derivations, Calculus & Non-Inertial Frames",
-                          style: GoogleFonts.inter(fontSize: 12, color: Colors.grey),
-                        ),
-                      ],
-                    ),
-                  ),
-                  IconButton(
-                    icon: const Icon(Icons.close),
-                    onPressed: () => Navigator.pop(ctx),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 8),
-
-              // Strict Segregation Peace-of-Mind Notice
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: isDark ? const Color(0xFF261933) : NotebookColors.stickyPurple,
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(
-                    color: isDark ? const Color(0xFF6B21A8) : NotebookColors.hlPurpleBorder,
-                  ),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text("🛡️ ", style: TextStyle(fontSize: 16)),
-                    Expanded(
-                      child: Text(
-                        "CBSE Board Peace-of-Mind Notice:\n"
-                        "These competitive formulations fall outside the standard CBSE Board syllabus. "
-                        "Students targeting 95%+ in Board Examinations can completely skip this tab without missing any board marks.",
-                        style: GoogleFonts.inter(
-                          fontSize: 12,
-                          height: 1.4,
-                          fontWeight: FontWeight.w600,
-                          color: isDark ? const Color(0xFFE9D5FF) : const Color(0xFF581C87),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 12),
-
-              // Deep Dives List
-              Expanded(
-                child: ch.deepDives.isEmpty
-                    ? Center(
-                        child: Text(
-                          "No competitive extension modules for this chapter.",
-                          style: GoogleFonts.inter(color: Colors.grey),
-                        ),
-                      )
-                    : ListView.separated(
-                        itemCount: ch.deepDives.length,
-                        separatorBuilder: (c, i) => const SizedBox(height: 12),
-                        itemBuilder: (c, i) {
-                          final dd = ch.deepDives[i];
-                          return Container(
-                            padding: const EdgeInsets.all(14),
-                            decoration: BoxDecoration(
-                              color: isDark ? const Color(0xFF24211D) : Colors.white,
-                              borderRadius: BorderRadius.circular(12),
-                              border: Border.all(
-                                color: isDark ? const Color(0xFF38342E) : NotebookColors.borderNotebook,
-                              ),
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  dd.title,
-                                  style: TextStyle(
-                                    fontFamily: GoogleFonts.kalam().fontFamily,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w700,
-                                    color: isDark ? Colors.white : NotebookColors.inkNavy,
-                                  ),
-                                ),
-                                const SizedBox(height: 4),
-                                Text(
-                                  dd.scope,
-                                  style: GoogleFonts.inter(
-                                    fontSize: 11.5,
-                                    fontWeight: FontWeight.w600,
-                                    color: isDark ? const Color(0xFFC084FC) : NotebookColors.inkPurple,
-                                  ),
-                                ),
-                                const SizedBox(height: 8),
-                                SizedBox(
-                                  height: 220,
-                                  child: MarkdownLatexView(
-                                    data: dd.content,
-                                    shrinkWrap: true,
-                                  ),
-                                ),
-                                if (dd.speedHack.isNotEmpty) ...[
-                                  const SizedBox(height: 8),
-                                  Container(
-                                    padding: const EdgeInsets.all(10),
-                                    decoration: BoxDecoration(
-                                      color: isDark ? const Color(0xFF1E2838) : const Color(0xFFEFF6FF),
-                                      borderRadius: BorderRadius.circular(8),
-                                      border: Border.all(color: const Color(0xFF93C5FD)),
-                                    ),
-                                    child: Row(
-                                      children: [
-                                        const Text("⚡ ", style: TextStyle(fontSize: 14)),
-                                        Expanded(
-                                          child: Text(
-                                            "Speed Hack: ${dd.speedHack}",
-                                            style: GoogleFonts.inter(
-                                              fontSize: 12,
-                                              color: isDark ? const Color(0xFFBFDBFE) : NotebookColors.inkBlue,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ],
-                            ),
-                          );
-                        },
-                      ),
-              ),
-            ],
-          ),
-        );
-      },
-    );
   }
 
   @override
@@ -346,6 +161,7 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                       Tab(text: "02 Solved Examples"),
                       Tab(text: "03 PYQ Vault"),
                       Tab(text: "04 Traps & Hacks"),
+                      Tab(text: "05 🚀 Advanced (JEE • NEET)"),
                     ],
                   ),
                 ),
@@ -358,17 +174,11 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                 _buildTab2Examples(ch, isDark),
                 _buildTab3PyqVault(ch, isDark),
                 _buildTab4Traps(ch, isDark),
+                _buildTab5Advanced(ch, isDark),
               ],
             ),
           ),
         ),
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-        backgroundColor: isDark ? const Color(0xFF6B21A8) : NotebookColors.inkPurple,
-        foregroundColor: Colors.white,
-        onPressed: () => _openDeepDivesSheet(context, isDark),
-        icon: const Icon(Icons.rocket_launch, size: 18),
-        label: const Text("🚀 Advanced Studies (JEE)"),
       ),
     );
   }
@@ -501,9 +311,21 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                     ),
                   ),
                   const Spacer(),
-                  Text(
-                    q.tag,
-                    style: GoogleFonts.inter(fontSize: 11, color: Colors.grey),
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                    decoration: BoxDecoration(
+                      color: isDark ? const Color(0xFF2E2718) : NotebookColors.stickyYellow,
+                      borderRadius: BorderRadius.circular(6),
+                      border: Border.all(color: NotebookColors.hlYellowBorder),
+                    ),
+                    child: Text(
+                      q.tag,
+                      style: GoogleFonts.inter(
+                        fontSize: 11,
+                        fontWeight: FontWeight.w700,
+                        color: isDark ? const Color(0xFFFDE047) : NotebookColors.inkAmber,
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -595,9 +417,28 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
                     ),
                   ),
                   const SizedBox(width: 8),
-                  Text(
-                    q.tag,
-                    style: GoogleFonts.inter(fontSize: 11.5, color: Colors.grey),
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                    decoration: BoxDecoration(
+                      color: isDark ? const Color(0xFF1E3A8A).withValues(alpha: 0.5) : const Color(0xFFDBEAFE),
+                      borderRadius: BorderRadius.circular(6),
+                      border: Border.all(color: const Color(0xFF93C5FD)),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(Icons.history_edu_rounded, size: 12, color: NotebookColors.inkBlue),
+                        const SizedBox(width: 4),
+                        Text(
+                          q.tag,
+                          style: GoogleFonts.inter(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w700,
+                            color: isDark ? const Color(0xFF93C5FD) : NotebookColors.inkBlue,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
@@ -673,6 +514,166 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
             remedy: "Verify all conditions of validity before applying simplified equations.",
           ),
       ],
+    );
+  }
+
+  // Tab 05: 🚀 Advanced Studies (JEE Main • Advanced • NEET)
+  Widget _buildTab5Advanced(Chapter ch, bool isDark) {
+    if (ch.deepDives.isEmpty) {
+      return ListView(
+        padding: const EdgeInsets.fromLTRB(16, 16, 16, 80),
+        children: [
+          _buildPeaceOfMindNotice(isDark),
+          const SizedBox(height: 32),
+          Center(
+            child: Column(
+              children: [
+                const Icon(Icons.auto_stories_outlined, size: 48, color: Colors.grey),
+                const SizedBox(height: 12),
+                Text(
+                  "No competitive extension modules for ${ch.title}.",
+                  style: GoogleFonts.inter(fontSize: 13.5, color: Colors.grey),
+                ),
+              ],
+            ),
+          ),
+        ],
+      );
+    }
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 80),
+      children: [
+        _buildPeaceOfMindNotice(isDark),
+        const SizedBox(height: 14),
+        ...ch.deepDives.map((dd) {
+          return Container(
+            margin: const EdgeInsets.only(bottom: 16),
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: isDark ? NotebookColors.darkCard : NotebookColors.bgCard,
+              borderRadius: BorderRadius.circular(14),
+              border: Border.all(
+                color: isDark ? const Color(0xFF4C1D95) : const Color(0xFFDDD6FE),
+                width: 1.5,
+              ),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                      decoration: BoxDecoration(
+                        color: isDark ? const Color(0xFF3B0764) : const Color(0xFFF3E8FF),
+                        borderRadius: BorderRadius.circular(6),
+                        border: Border.all(color: const Color(0xFFC084FC)),
+                      ),
+                      child: Text(
+                        dd.scope.toUpperCase(),
+                        style: GoogleFonts.inter(
+                          fontSize: 10.5,
+                          fontWeight: FontWeight.w800,
+                          color: isDark ? const Color(0xFFE9D5FF) : NotebookColors.inkPurple,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  dd.title,
+                  style: TextStyle(
+                    fontFamily: GoogleFonts.kalam().fontFamily,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                    color: isDark ? Colors.white : NotebookColors.inkNavy,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                MarkdownLatexView(
+                  data: dd.content,
+                  shrinkWrap: true,
+                ),
+                if (dd.speedHack.isNotEmpty) ...[
+                  const SizedBox(height: 12),
+                  Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: isDark ? const Color(0xFF1E2838) : const Color(0xFFEFF6FF),
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(color: const Color(0xFF93C5FD)),
+                    ),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text("⚡ ", style: TextStyle(fontSize: 16)),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Competitive Speed Hack / Shortcut:",
+                                style: GoogleFonts.inter(
+                                  fontSize: 11.5,
+                                  fontWeight: FontWeight.bold,
+                                  color: isDark ? const Color(0xFF93C5FD) : NotebookColors.inkBlue,
+                                ),
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
+                                dd.speedHack,
+                                style: GoogleFonts.inter(
+                                  fontSize: 12.5,
+                                  height: 1.4,
+                                  color: isDark ? const Color(0xFFE2E8F0) : NotebookColors.inkCharcoal,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          );
+        }),
+      ],
+    );
+  }
+
+  Widget _buildPeaceOfMindNotice(bool isDark) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: isDark ? const Color(0xFF261933) : NotebookColors.stickyPurple,
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(
+          color: isDark ? const Color(0xFF6B21A8) : NotebookColors.hlPurpleBorder,
+        ),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text("🛡️ ", style: TextStyle(fontSize: 16)),
+          Expanded(
+            child: Text(
+              "CBSE Board Peace-of-Mind Notice:\n"
+              "These competitive formulations fall outside the standard CBSE Board syllabus. "
+              "Students targeting 95%+ in Board Examinations can completely skip this tab without missing any board marks.",
+              style: GoogleFonts.inter(
+                fontSize: 12,
+                height: 1.4,
+                fontWeight: FontWeight.w600,
+                color: isDark ? const Color(0xFFE9D5FF) : const Color(0xFF581C87),
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

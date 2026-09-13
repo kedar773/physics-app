@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Solids"
 part: 7 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:23"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -304,4 +304,4 @@ $$
 | $\text{Pa}$ | $[\text{M}^{1}\text{L}^{-1}\text{T}^{-2}]$ | $\frac{9}{Y} = \frac{1}{B} + \frac{3}{G}$; $\nu = \frac{3B - 2G}{6B + 2G}$. |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

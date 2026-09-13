@@ -4,13 +4,13 @@ chapter: "Moving Charges and Magnetism"
 part: 2 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:26"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Biot-Savart Law & Magnetic Field on the Axis/Center of a Circular Current Loop
 
@@ -640,4 +640,4 @@ $$
 * **Current anti-clockwise:** Thumb points out of paper $\implies$ Outwards ($\odot$) $\implies$ North pole.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

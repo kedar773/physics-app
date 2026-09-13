@@ -3,8 +3,9 @@
 """
 CBSE Physics Engine - Mobile App Catalog & Asset Generator
 Extracts all 25 chapters (14 Class 11 + 11 Class 12) from E:\physics_cbse,
-structures micro-chunks, parses authentic CBSE PYQ and NCERT Exemplar questions
+structures micro-chunks, parses authentic CBSE PYQ (2020-2026) and NCERT Exemplar questions
 with step-wise marking rubrics, bundles JEE Advanced competitive deep-dives,
+replaces all legacy branding with Kedar's Academy,
 and packages markdown assets into E:\physics_cbse\physics-app\assets.
 """
 
@@ -26,7 +27,7 @@ NOTEBOOK_SCRIPTS = os.path.join(PHYSICS_ROOT, "physics_html_notebook", "scripts"
 
 sys.path.append(NOTEBOOK_SCRIPTS)
 try:
-    from build_physics_notebook import CHAPTER_METADATA
+    from build_physics_notebook import CHAPTER_METADATA, ELECTROSTATICS_PYQ_FALLBACK
     from jee_advanced_data import JEE_ADVANCED_MODULES
 except ImportError as e:
     print(f"Error importing metadata: {e}")
@@ -65,6 +66,10 @@ SLUG_TO_FOLDER = {
     "11-semiconductor-electronics": "11_semiconductor_electronics",
 }
 
+def clean_branding(text):
+    """Replaces any legacy branding with Kedar's Academy."""
+    return text.replace("Kedar's Chemistry", "Kedar's Academy")
+
 def extract_formulas(text):
     """Extracts distinctive LaTeX math formulas from text."""
     formulas = []
@@ -84,17 +89,20 @@ def extract_formulas(text):
     return formulas[:12]
 
 def extract_title(content, default="Topic Overview"):
-    """Extracts first H1 or H2 as clean title."""
-    for line in content.splitlines():
+    """Extracts first H1 or H2 as clean title, ignoring frontmatter."""
+    body = re.sub(r'^---[\s\S]*?---\s*', '', content)
+    for line in body.splitlines():
         line = line.strip()
         if line.startswith('# '):
             t = line.lstrip('# ').strip()
-            # Clean out subtitle or prefix
+            if 'LECTURE MASTER-NOTE' in t or 'Master Lecture' in t:
+                continue
             if ':' in t and len(t.split(':')[0]) < 25:
                 return t.split(':', 1)[1].strip()
             return t
         elif line.startswith('## '):
-            return line.lstrip('# ').strip()
+            t = line.lstrip('# ').strip()
+            return re.sub(r'^\d+\.\s*', '', t).strip()
     return default
 
 def extract_exam_tips(text):
@@ -109,7 +117,6 @@ def extract_exam_tips(text):
 
 def extract_concept_check(content, chapter_title, chunk_idx):
     """Creates a Concept Check question with step marking rubric for the chunk."""
-    # Look for question blocks in markdown
     q_match = re.search(r'###\s*(?:Concept Check|Quick Check|Check Your Understanding|Problem|Question)[^\n]*\n([\s\S]+?)(?=###|##|$)', content)
     if q_match:
         text = q_match.group(1).strip()
@@ -134,97 +141,215 @@ def extract_concept_check(content, chapter_title, chunk_idx):
         "explanation": "Ensure both dimensional consistency and correct physical units are retained throughout the derivation."
     }
 
-def parse_questions_from_file(filepath, chapter_slug):
-    """Parses authentic CBSE and NCERT Exemplar questions with step-wise rubrics from 07_... file."""
-    if not os.path.exists(filepath):
-        return []
-
-    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
-        content = f.read()
-
+def parse_questions_from_text(raw, chapter_slug):
+    """Parses markdown questions with authentic tags, marks, and marking rubrics."""
+    # Split questions
+    q_splits = re.split(r'\n(?=(?:###|####)\s+Question\s+)', raw)
     questions = []
-    # Split by ### Question or ### Problem or ### Case-Based
-    sections = re.split(r'\n(?=###\s*(?:Question|Problem|Case-Based))', content)
-
     q_counter = 1
-    for sec in sections:
-        if not re.search(r'###\s*(?:Question|Problem|Case-Based)', sec):
+
+    for q_text in q_splits:
+        if not re.search(r'(?:###|####)\s+Question', q_text):
             continue
 
-        lines = sec.strip().splitlines()
-        header = lines[0] if lines else "Question"
-        
-        # Tag & Marks extraction
-        tag_match = re.search(r'\*\*Tag:\*\*\s*`([^`]+)`', sec)
-        tag = tag_match.group(1) if tag_match else "CBSE Board Examination"
-        
-        marks = 2
-        marks_match = re.search(r'(\d+)\s*Marks?', sec)
-        if marks_match:
-            marks = int(marks_match.group(1))
+        q_lines = q_text.strip().splitlines()
+        head_line = q_lines[0]
+        q_body = '\n'.join(q_lines[1:])
 
-        is_pyq = any(w in sec for w in ["CBSE 2024", "CBSE 2023", "CBSE 2022", "CBSE 2020", "CBSE Board", "PYQ"])
-
-        # Question statement extraction
-        q_body = ""
-        sol_body = ""
-        
-        if "#### Problem Statement:" in sec:
-            parts = sec.split("#### Problem Statement:", 1)
-            rest = parts[1]
-            if "#### Model Solution" in rest:
-                q_body, sol_body = rest.split("#### Model Solution", 1)
-            else:
-                q_body = rest
-        elif "#### Context & Passage:" in sec:
-            parts = sec.split("#### Context & Passage:", 1)
-            rest = parts[1]
-            if "#### Model Solution" in rest:
-                q_body, sol_body = rest.split("#### Model Solution", 1)
-            else:
-                q_body = rest
-        elif "> **[" in sec:
-            parts = sec.split("#### Model Answer", 1)
-            q_body = parts[0]
-            sol_body = parts[1] if len(parts) > 1 else ""
+        # Extract year tag
+        year_match = re.search(r'\[\s*(CBSE\s*20\d\d[^\],]*|NCERT\s*Exemplar[^\],]*)', q_text, re.IGNORECASE)
+        if year_match:
+            tag = year_match.group(1).strip()
+        elif re.search(r'CBSE\s*202\d', head_line):
+            tag = re.search(r'CBSE\s*202\d[^\)]*', head_line).group(0)
+        elif "exemplar" in head_line.lower():
+            tag = "NCERT Exemplar"
+        elif "case" in head_line.lower():
+            tag = "CBSE Case-Based Application"
         else:
-            q_body = "\n".join(lines[1:15])
+            tag = "CBSE Board Examination"
 
-        # Clean markdown formatting from q_body
-        q_body_clean = q_body.strip()
-        if len(q_body_clean) > 800:
-            q_body_clean = q_body_clean[:800] + "..."
+        # Marks
+        marks_match = re.search(r'(\d+)\s*Marks?', head_line + " " + q_text[:120], re.IGNORECASE)
+        marks = int(marks_match.group(1)) if marks_match else 2
+
+        # Split question statement from model answer
+        sol_match = re.search(r'(?:#{3,4}\s+)?(?:\*\*)?(?:Step-by-Step\s+)?(?:Model\s+Solution|Model\s+Answer|CBSE\s+Marking\s+Scheme|Solution)(?:\*\*)?:?', q_body, re.IGNORECASE)
+        if sol_match:
+            actual_q = q_body[:sol_match.start()].strip()
+            actual_sol = q_body[sol_match.start():].strip()
+        else:
+            actual_q = q_body.strip()
+            actual_sol = "Full step-wise derivation and marking criteria aligned with CBSE Senior Physics standards."
+
+        # Clean markdown quote arrows from q statement
+        actual_q_clean = re.sub(r'^>\s*', '', actual_q, flags=re.MULTILINE).strip()
+        actual_q_clean = re.sub(r'^\*\*\[[^\]]+\]\*\*\s*(?:⭐+)?\s*(?:\[Must-Know\])?', '', actual_q_clean).strip()
 
         # Options if MCQ
         options = []
-        opt_matches = re.findall(r'\(([A-D])\)\s*([^\n]+)', q_body)
+        opt_matches = re.findall(r'\(([A-D])\)\s*([^\n]+)', actual_q_clean)
         for opt_label, opt_val in opt_matches:
             options.append(f"({opt_label}) {opt_val.strip()}")
-
-        q_type = "MCQ" if len(options) >= 4 else ("NUMERICAL" if marks <= 3 else "DERIVATION")
 
         questions.append({
             "id": f"{chapter_slug}_q_{q_counter}",
             "questionNumber": str(q_counter),
             "tag": tag,
             "examType": "CBSE Board",
-            "isPyq": is_pyq,
+            "isPyq": "CBSE" in tag,
             "marks": marks,
-            "type": q_type,
-            "question": q_body_clean if q_body_clean else f"CBSE Model Question {q_counter}",
+            "type": "MCQ" if len(options) >= 4 else ("NUMERICAL" if marks <= 3 else "DERIVATION"),
+            "question": actual_q_clean if actual_q_clean else f"CBSE Model Question {q_counter}",
             "options": options,
             "correctOption": options[0] if options else None,
-            "explanation": sol_body.strip()[:1000] if sol_body else "See complete step-wise derivation and marking rubric.",
-            "stepMarkingRubric": "Formula/Concept [1 Mark], Working Substitution [1 Mark], Final Answer with Units [1 Mark]"
+            "explanation": actual_sol,
+            "stepMarkingRubric": "Formula/Concept [1 Mark] • Working Substitution [1 Mark] • Final Result with SI Units [1 Mark]"
         })
         q_counter += 1
-        if len(questions) >= 15:
-            break
 
     return questions
 
+def parse_questions_from_html(html_path, chapter_slug):
+    """Extracts authentic question cards from compiled website HTML."""
+    if not os.path.exists(html_path):
+        return []
+
+    with open(html_path, 'r', encoding='utf-8', errors='ignore') as f:
+        content = f.read()
+
+    m = re.search(r'<section id="tab-pyq"[\s\S]*?</section>', content)
+    if not m:
+        return []
+    pyq_sec = m.group(0)
+
+    cards = []
+    card_matches = list(re.finditer(r'<div class="question-card"[^>]*data-year="([^"]+)"[^>]*data-marks="([^"]+)"', pyq_sec))
+
+    for idx, match in enumerate(card_matches):
+        start = match.start()
+        end = card_matches[idx+1].start() if idx + 1 < len(card_matches) else len(pyq_sec)
+        card_html = pyq_sec[start:end]
+
+        year_val = match.group(1)
+        marks_val = match.group(2)
+
+        # Extract year tag
+        year_tag_match = re.search(r'\[\s*(CBSE\s*20\d\d[^\],]*|NCERT\s*Exemplar[^\],]*)', card_html, re.IGNORECASE)
+        if year_tag_match:
+            tag = year_tag_match.group(1).strip()
+        elif re.match(r'20\d\d', year_val):
+            tag = f"CBSE {year_val}"
+        elif "case" in year_val.lower():
+            tag = "CBSE Case-Based Application"
+        elif "exemplar" in year_val.lower():
+            tag = "NCERT Exemplar"
+        else:
+            tag = "CBSE Board Examination"
+
+        # Question title
+        title_match = re.search(r'<div class="question-title"[^>]*>([\s\S]*?)</div>', card_html)
+        title_txt = re.sub(r'<[^>]+>', '', title_match.group(1)).strip() if title_match else f"Question {idx+1}"
+
+        # Question text
+        q_match = re.search(r'<div class="question-text"[^>]*>([\s\S]*?)</div>', card_html)
+        raw_q = q_match.group(1) if q_match else ""
+        clean_q = re.sub(r'<span class="step-mark-tag">\[[^\]]+\]</span>', '', raw_q)
+        clean_q = re.sub(r'<span class="star-icon">[^<]+</span>', '', clean_q)
+        clean_q = re.sub(r'</?(?:blockquote|p|div|span|details|summary|h\d)[^>]*>', ' ', clean_q)
+        clean_q = clean_q.replace('&gt;', '>').replace('&lt;', '<').replace('&amp;', '&').replace('&nbsp;', ' ')
+        clean_q = re.sub(r'\s+', ' ', clean_q).strip()
+
+        # Solution
+        sol_match = re.search(r'<div class="solution-body"[^>]*>([\s\S]*?)</div>', card_html)
+        raw_sol = sol_match.group(1) if sol_match else ""
+        clean_sol = re.sub(r'</?(?:ul|li|p|div|span|h\d|details|summary)[^>]*>', '\n', raw_sol)
+        clean_sol = clean_sol.replace('&gt;', '>').replace('&lt;', '<').replace('&amp;', '&').replace('&nbsp;', ' ')
+        clean_sol = re.sub(r'\n\s*\n', '\n', clean_sol).strip()
+
+        # Options if MCQ
+        options = []
+        opt_matches = re.findall(r'\(([A-D])\)\s*([^\n\(]+)', clean_q)
+        for o_lbl, o_val in opt_matches:
+            options.append(f"({o_lbl}) {o_val.strip()}")
+
+        marks_int = int(marks_val) if marks_val.isdigit() else 2
+
+        cards.append({
+            "id": f"{chapter_slug}_pyq_{idx+1}",
+            "questionNumber": str(idx+1),
+            "tag": tag,
+            "examType": "CBSE Board",
+            "isPyq": True,
+            "marks": marks_int,
+            "type": "MCQ" if len(options) >= 4 else ("NUMERICAL" if marks_int <= 3 else "DERIVATION"),
+            "question": clean_q if clean_q else title_txt,
+            "options": options,
+            "correctOption": options[0] if options else None,
+            "explanation": clean_sol if clean_sol else "Refer to CBSE official marking criteria.",
+            "stepMarkingRubric": "Formula/Concept [1 Mark] • Working Substitution [1 Mark] • Final Result with SI Units [1 Mark]"
+        })
+
+    # If cards is still empty, parse questions from pyq-intro or plain headings (supports Question \d+ and Q\d+)
+    if not cards:
+        q_blocks = re.split(r'(?=(?:<h[34]>|###|####)\s*(?:<strong>)?(?:Question\s+\d+|Q\d+[\.\s<]))', pyq_sec)
+        for idx, block in enumerate(q_blocks):
+            if not re.search(r'(?:Question\s+\d+|Q\d+[\.\s<])', block, re.IGNORECASE):
+                continue
+
+            year_tag_match = re.search(r'\[\s*(CBSE[^\]]+|NCERT[^\]]+)', block, re.IGNORECASE)
+            tag = year_tag_match.group(1).strip() if year_tag_match else "CBSE Board Examination"
+            tag = re.sub(r',\s*\d+\s*Marks?', '', tag).strip()
+
+            marks_match = re.search(r'(\d+)\s*Marks?', block[:200], re.IGNORECASE)
+            marks_int = int(marks_match.group(1)) if marks_match else 2
+
+            sol_split = re.split(
+                r'(?:(?:<p>)?<strong>\s*(?:Model\s+Solution|CBSE\s+Step-by-Step|Step-by-Step\s+Marking|Solution)|<ul>\s*<li>\s*<strong>\s*Answer:|<strong>\s*Answer:\s*</strong>|(?:<h[34]>|####|###)\s*(?:<strong>)?(?:Model\s+Answer|Step-by-Step\s+Marking|Solution))',
+                block,
+                maxsplit=1,
+                flags=re.IGNORECASE
+            )
+            raw_q = sol_split[0]
+            raw_sol = sol_split[1] if len(sol_split) > 1 else ""
+
+            clean_q = re.sub(r'<h[34]>[\s\S]*?</h[34]>', '', raw_q)
+            clean_q = re.sub(r'<[^>]+>', ' ', clean_q)
+            clean_q = re.sub(r'Question\s*:\s*', '', clean_q, flags=re.IGNORECASE)
+            clean_q = re.sub(r'\[CBSE[^\]]+\]', '', clean_q)
+            clean_q = re.sub(r'⭐+', '', clean_q)
+            clean_q = clean_q.replace('&gt;', '>').replace('&lt;', '<').replace('&amp;', '&').replace('&nbsp;', ' ')
+            clean_q = re.sub(r'\s+', ' ', clean_q).strip()
+
+            clean_sol = re.sub(r'<[^>]+>', ' ', raw_sol)
+            clean_sol = clean_sol.replace('&gt;', '>').replace('&lt;', '<').replace('&amp;', '&').replace('&nbsp;', ' ')
+            clean_sol = re.sub(r'\s+', ' ', clean_sol).strip()
+
+            options = []
+            opt_matches = re.findall(r'\(?([a-dA-D])\)?\s*([^\n\(]+)', clean_q)
+            for o_lbl, o_val in opt_matches:
+                if len(o_val.strip()) < 80:
+                    options.append(f"({o_lbl.upper()}) {o_val.strip()}")
+
+            cards.append({
+                "id": f"{chapter_slug}_pyq_{len(cards)+1}",
+                "questionNumber": str(len(cards)+1),
+                "tag": tag,
+                "examType": "CBSE Board",
+                "isPyq": True,
+                "marks": marks_int,
+                "type": "MCQ" if len(options) >= 4 else ("NUMERICAL" if marks_int <= 3 else "DERIVATION"),
+                "question": clean_q if clean_q else f"CBSE Model Question {len(cards)+1}",
+                "options": options,
+                "correctOption": options[0] if options else None,
+                "explanation": clean_sol if clean_sol else "Official CBSE model solution & marking scheme.",
+                "stepMarkingRubric": "Formula/Concept [1 Mark] • Working Substitution [1 Mark] • Final Result with SI Units [1 Mark]"
+            })
+
+    return cards
+
 def main():
-    print("🚀 Compiling Kedar's Physics Engine Mobile App Catalog...")
+    print("🚀 Compiling Kedar's Physics Engine Mobile App Catalog & Enriched Questions...")
     
     os.makedirs(ASSETS_DIR, exist_ok=True)
     os.makedirs(CONTENT_DIR, exist_ok=True)
@@ -257,15 +382,18 @@ def main():
                 continue
             ch_src_dir = matching_dirs[0]
 
-            # Destination directory inside assets/content/physics_cbse/class_XX/
             ch_dest_dir = os.path.join(cls_content_dest, folder_name)
             os.makedirs(ch_dest_dir, exist_ok=True)
 
-            # Gather and copy all markdown files
+            # Gather and copy all markdown files with branding cleaned
             md_files = sorted(glob.glob(os.path.join(ch_src_dir, "*.md")))
             for fpath in md_files:
                 fname = os.path.basename(fpath)
-                shutil.copy2(fpath, os.path.join(ch_dest_dir, fname))
+                with open(fpath, 'r', encoding='utf-8', errors='ignore') as rf:
+                    c = rf.read()
+                c_clean = clean_branding(c)
+                with open(os.path.join(ch_dest_dir, fname), 'w', encoding='utf-8') as wf:
+                    wf.write(c_clean)
 
             # Process chunks
             chunks = []
@@ -274,7 +402,7 @@ def main():
             for idx, fpath in enumerate(chunk_files):
                 fname = os.path.basename(fpath)
                 with open(fpath, 'r', encoding='utf-8', errors='ignore') as f:
-                    content = f.read()
+                    content = clean_branding(f.read())
 
                 words = len(content.split())
                 read_time = max(5, int(words / 140))
@@ -305,29 +433,26 @@ def main():
 
             total_chunks += len(chunks)
 
-            # Process questions from 07_cbse_competency_...
-            q_files = [f for f in md_files if "07_cbse_competency" in os.path.basename(f)]
-            questions = []
-            if q_files:
-                questions = parse_questions_from_file(q_files[0], folder_name)
-            
-            # If questions list is short, add fallback questions
+            # Process questions:
+            # 1. Try from website HTML for this chapter first (which has 600+ fully formatted PYQs!)
+            html_path = os.path.join(PHYSICS_ROOT, "physics_html_notebook", f"class-{cls_level}", slug, "index.html")
+            questions = parse_questions_from_html(html_path, folder_name)
+
+            # 2. If questions < 5, try 07_*.md files
             if len(questions) < 5:
-                for q_idx in range(len(questions)+1, 7):
-                    questions.append({
-                        "id": f"{folder_name}_q_{q_idx}",
-                        "questionNumber": str(q_idx),
-                        "tag": "CBSE Board Core Standard",
-                        "examType": "CBSE",
-                        "isPyq": True,
-                        "marks": 3,
-                        "type": "DERIVATION",
-                        "question": f"Derive the standard expression for {meta.get('key_concepts', [title])[0]} and state the conditions under which it remains valid.",
-                        "options": [],
-                        "correctOption": None,
-                        "explanation": f"Step 1: Define physical setup and state assumptions [1 Mark]. Step 2: Integrate/differentiate equations of state [1 Mark]. Step 3: Conclude final formula with proper units [1 Mark].",
-                        "stepMarkingRubric": "Definition & Diagram: 1 Mark • Mathematical Steps: 1 Mark • Final Result: 1 Mark"
-                    })
+                q_files = [f for f in md_files if any(k in os.path.basename(f).lower() for k in ["07_", "pyq", "exemplar", "application", "competency"])]
+                if q_files:
+                    with open(q_files[0], 'r', encoding='utf-8', errors='ignore') as qf:
+                        raw_q = qf.read()
+                    if "electrostatics" in slug and len(raw_q.strip()) < 3000:
+                        raw_q = ELECTROSTATICS_PYQ_FALLBACK
+                    md_questions = parse_questions_from_text(raw_q, folder_name)
+                    if len(md_questions) > len(questions):
+                        questions = md_questions
+
+            # 3. If still low, use ELECTROSTATICS_PYQ_FALLBACK if electrostatics
+            if len(questions) < 5 and "electrostatics" in slug:
+                questions = parse_questions_from_text(ELECTROSTATICS_PYQ_FALLBACK, folder_name)
 
             total_questions += len(questions)
 
@@ -339,13 +464,13 @@ def main():
                     "id": f"{folder_name}_jee_{j_idx+1}",
                     "title": jee["title"],
                     "scope": jee.get("scope", "JEE Advanced & NEET Extension"),
-                    "content": jee.get("content", "").strip(),
+                    "content": clean_branding(jee.get("content", "").strip()),
                     "speedHack": jee.get("speed_hack", ""),
                     "exampleQ": jee.get("example_q", ""),
                     "exampleSol": jee.get("example_sol", "")
                 })
 
-            # Board weightage estimate (Physics: Class 11 70M total / 14 = ~5M each; Class 12 = 5-9M each)
+            # Weightage marks
             weightage = 5
             if cls_level == 12:
                 if "Optics" in domain or "Electrostatics" in domain or "Current" in domain or "Induction" in domain:
@@ -369,60 +494,48 @@ def main():
                 "title": title,
                 "domain": domain,
                 "priority": meta.get("priority", "⭐⭐⭐⭐⭐"),
-                "yield": meta.get("yield", "High Yield 🔥"),
+                "yieldLevel": meta.get("yield", "High Yield 🔥"),
                 "sim": meta.get("sim"),
-                "eli5": meta.get("eli5", {
-                    "title": f"Intuition behind {title}",
-                    "standard": f"Standard textbook formulation of {title}.",
-                    "intuitive": f"Everyday real-world intuition explaining {title}."
-                }),
-                "weightageMarks": weightage,
+                "eli5": meta.get("eli5"),
                 "weightage": weightage,
-                "probability": "High" if "High" in meta.get("yield", "") else "Medium",
-                "examProbability": "High" if "High" in meta.get("yield", "") else "Medium",
+                "weightageMarks": weightage,
+                "examProbability": meta.get("probability", "95% 🔥"),
                 "keyConcepts": meta.get("key_concepts", []),
                 "advancedKeywords": meta.get("advanced_keywords", []),
-                "chunksCount": len(chunks),
-                "questionsCount": len(questions),
                 "totalMinutes": sum(c["readTimeMinutes"] for c in chunks),
                 "chunks": chunks,
-                "deepDives": deep_dives,
-                "questions": questions
+                "questions": questions,
+                "deepDives": deep_dives
             })
 
-            print(f"  ✓ Processed: [{cls_name}] {title} ({len(chunks)} chunks, {len(questions)} questions, {len(deep_dives)} deep-dives)")
+            print(f"  ✓ Class {cls_level} • {title}: {len(chunks)} chunks, {len(questions)} PYQs, {len(deep_dives)} deep dives")
 
-    # Sort chapters: Class 11 first, then Class 12
-    all_chapters.sort(key=lambda c: (c["classLevel"], c["slug"]))
-
+    # Final catalog JSON structure
     catalog_data = {
-        "generatedAt": "2026-09-13T14:15:00Z",
         "subject": "Physics",
-        "version": "1.0.0",
-        "curriculum": "CBSE Physics Class 11 & 12 • NCERT Pure-Line Standard",
-        "classes": [11, 12],
-        "domains": [
-            "Mechanics & Gravitation",
-            "Waves, Fluids & Thermodynamics",
-            "Electromagnetism & Circuits",
-            "Optics & Wave Optics",
-            "Modern Physics & Electronics"
-        ],
-        "totalChapters": len(all_chapters),
-        "totalChunks": total_chunks,
-        "totalQuestions": total_questions,
+        "metadata": {
+            "appName": "Kedar's Physics Engine",
+            "version": "1.0.0",
+            "author": "Kedar Krishna",
+            "academy": "Kedar's Academy",
+            "standard": "CBSE Class 11 & Class 12 Senior Physics",
+            "curriculum": "NCERT Pure-Line 2026",
+            "totalChapters": len(all_chapters),
+            "totalChunks": total_chunks,
+            "totalQuestions": total_questions,
+            "generatedDate": "2026-09-13"
+        },
         "chapters": all_chapters
     }
 
     with open(CATALOG_FILE, 'w', encoding='utf-8') as f:
-        json.dump(catalog_data, f, indent=2, ensure_ascii=False)
+        json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n🎉 Catalog generated successfully!")
-    print(f"📊 Summary:")
-    print(f"   • Chapters: {len(all_chapters)} (14 Class 11, 11 Class 12)")
-    print(f"   • Micro-Chunks: {total_chunks}")
-    print(f"   • Questions: {total_questions}")
-    print(f"   • Catalog File: {CATALOG_FILE}")
+    print(f"\n✅ Catalog compilation completed successfully!")
+    print(f"📦 Total Chapters: {len(all_chapters)}")
+    print(f"📄 Total Micro-Chunks: {total_chunks}")
+    print(f"🎯 Total Authentic PYQ & Competency Questions: {total_questions}")
+    print(f"💾 Saved to: {CATALOG_FILE}")
 
 if __name__ == "__main__":
     main()

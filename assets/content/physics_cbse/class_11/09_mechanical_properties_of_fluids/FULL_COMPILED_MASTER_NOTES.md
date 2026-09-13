@@ -2,17 +2,17 @@
 title: "CBSE Class 11 Physics: Mechanical Properties of Fluids - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:45"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 11 Physics: Mechanical Properties of Fluids
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Fluid Statics: Pressure, Pascal's Law, Hydraulic Machines & Atmospheric Pressure
 
@@ -796,7 +796,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Fluid Dynamics: Streamline Flow, Equation of Continuity & Bernoulli's Principle with Applications
 
@@ -1860,7 +1860,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Viscous Drag: Coefficient of Viscosity, Poiseuille's Flow, Stokes' Law & Terminal Velocity
 
@@ -2591,7 +2591,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Flow Regimes: Critical Velocity, Reynolds Number & Turbulence
 
@@ -3051,7 +3051,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Surface Phenomena: Surface Energy, Surface Tension, Excess Pressure & Capillary Rise
 
@@ -3923,7 +3923,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -5149,7 +5149,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -5436,4 +5436,4 @@ $$
 | **Reynolds Number** | $R_e = \frac{\rho v d}{\eta}$ | Dimensionless | $[\text{M}^{0}\text{L}^{0}\text{T}^{0}]$ | $d =$ internal pipe diameter or characteristic obstacle dimension. |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

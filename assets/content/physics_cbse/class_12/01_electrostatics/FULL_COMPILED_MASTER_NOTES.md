@@ -2,17 +2,17 @@
 title: "CBSE Class 12 Physics: Electrostatics - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:19"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 12 Physics: Electrostatics
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Charges, Conductors & Insulators, Coulomb's Law, and Superposition Principle
 
@@ -640,7 +640,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Field, Field Lines, Electric Dipole, and Torque on a Dipole in Uniform Field
 
@@ -1233,7 +1233,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Flux, Gauss's Theorem, and Applications to Line, Sheet, and Spherical Shell
 
@@ -2348,7 +2348,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Potential, Potential Difference, Potential due to Dipole/System, and Equipotential Surfaces
 
@@ -2929,7 +2929,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electrostatics of Conductors, Dielectrics, Electric Polarization, and Bound Charges
 
@@ -3686,7 +3686,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Capacitors and Capacitance, Parallel Plate Capacitor with Dielectric, Combinations, and Energy Stored
 
@@ -4596,7 +4596,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -4625,7 +4625,7 @@ Each question is equipped with:
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -4863,4 +4863,4 @@ $$
 | $\text{J/m}^3$ | $[\text{M L}^{-1} \text{T}^{-2}]$ | Same dimensions as Pressure and Young's Modulus. |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

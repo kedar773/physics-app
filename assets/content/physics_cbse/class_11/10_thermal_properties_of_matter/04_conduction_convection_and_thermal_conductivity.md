@@ -4,13 +4,13 @@ chapter: "Thermal Properties of Matter"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:52"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Conduction, Coefficient of Thermal Conductivity & Convective Heat Transfer
 
@@ -1013,4 +1013,4 @@ t_{(0 \to x)} : t_{(x \to 2x)} : t_{(2x \to 3x)} : \dots : t_{((n-1)x \to nx)} =
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

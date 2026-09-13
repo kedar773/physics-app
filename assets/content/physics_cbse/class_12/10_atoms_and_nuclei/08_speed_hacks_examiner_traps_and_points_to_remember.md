@@ -4,13 +4,13 @@ chapter: "Atoms and Nuclei"
 part: 8 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:00"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -246,4 +246,4 @@ $$
 | $\text{MeV}$ | $[\text{M}^1\text{L}^2\text{T}^{-2}\text{I}^0]$ | $Q > 0 \implies$ Exothermic; $Q < 0 \implies$ Endothermic |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

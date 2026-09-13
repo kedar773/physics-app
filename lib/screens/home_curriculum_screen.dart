@@ -6,7 +6,7 @@ import '../animations/notebook_route_transition.dart';
 import '../providers/app_providers.dart';
 import '../theme/notebook_colors.dart';
 import '../theme/notebook_paper_painter.dart';
-import '../widgets/academy_switcher_sheet.dart';
+import '../widgets/interactive_physics_lab.dart';
 import '../widgets/motivational_card.dart';
 import '../widgets/notebook_chapter_card.dart';
 import '../widgets/quick_constants_sheet.dart';
@@ -126,11 +126,11 @@ class HomeCurriculumScreen extends ConsumerWidget {
                         },
                       ),
 
-                      // Academy Switcher
+                      // Interactive Physics Simulations Lab
                       IconButton(
-                        icon: const Text("🏛️", style: TextStyle(fontSize: 18)),
-                        tooltip: "STEM Academy Switcher",
-                        onPressed: () => AcademySwitcherSheet.show(context),
+                        icon: const Text("🔬", style: TextStyle(fontSize: 18)),
+                        tooltip: "Interactive Physics Visual Lab",
+                        onPressed: () => InteractivePhysicsLabDialog.show(context),
                       ),
                     ],
                   ),
@@ -185,6 +185,90 @@ class HomeCurriculumScreen extends ConsumerWidget {
                     quote: quote["quote"] as String? ?? "Master one derivation today.",
                     source: quote["source"] as String? ?? "Kedar Sir",
                     category: quote["category"] as String? ?? "Physics",
+                  ),
+                ),
+              ),
+
+              // Interactive Physics Simulations Lab Card
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                  child: InkWell(
+                    onTap: () => InteractivePhysicsLabDialog.show(context),
+                    borderRadius: BorderRadius.circular(14),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: isDark
+                              ? [const Color(0xFF1E2838), const Color(0xFF261E38)]
+                              : [const Color(0xFFEFF6FF), const Color(0xFFF5F3FF)],
+                        ),
+                        borderRadius: BorderRadius.circular(14),
+                        border: Border.all(
+                          color: isDark ? const Color(0xFF3B82F6).withValues(alpha: 0.4) : const Color(0xFFBFDBFE),
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.all(10),
+                            decoration: BoxDecoration(
+                              color: isDark ? const Color(0xFF1E3A8A) : Colors.white,
+                              shape: BoxShape.circle,
+                              border: Border.all(color: NotebookColors.inkBlue),
+                            ),
+                            child: const Text("🔬", style: TextStyle(fontSize: 22)),
+                          ),
+                          const SizedBox(width: 14),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Text(
+                                      "Physics Visual Lab",
+                                      style: TextStyle(
+                                        fontFamily: GoogleFonts.kalam().fontFamily,
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w700,
+                                        color: isDark ? Colors.white : NotebookColors.inkNavy,
+                                      ),
+                                    ),
+                                    const SizedBox(width: 6),
+                                    Container(
+                                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+                                      decoration: BoxDecoration(
+                                        color: const Color(0xFF10B981).withValues(alpha: 0.15),
+                                        borderRadius: BorderRadius.circular(4),
+                                      ),
+                                      child: const Text(
+                                        "LIVE 60FPS",
+                                        style: TextStyle(
+                                          fontSize: 9.5,
+                                          fontWeight: FontWeight.w800,
+                                          color: Color(0xFF10B981),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                const SizedBox(height: 2),
+                                Text(
+                                  "Interactive models: Projectile Motion, Spring SHM, Snell's Law & Bohr Atom.",
+                                  style: GoogleFonts.inter(
+                                    fontSize: 11.5,
+                                    color: isDark ? NotebookColors.chalkMuted : NotebookColors.inkSlate,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const Icon(Icons.arrow_forward_ios_rounded, size: 14, color: NotebookColors.inkBlue),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -289,12 +373,12 @@ class HomeCurriculumScreen extends ConsumerWidget {
           padding: const EdgeInsets.symmetric(vertical: 10),
           decoration: BoxDecoration(
             color: isSelected
-                ? (isDark ? const Color(0xFF1E3A8A) : const Color(0xFFDBEAFE))
+                ? (isDark ? NotebookColors.physicsBlueAccent : NotebookColors.inkNavy)
                 : (isDark ? const Color(0xFF24211D) : Colors.white),
             borderRadius: BorderRadius.circular(10),
             border: Border.all(
               color: isSelected
-                  ? NotebookColors.inkBlue
+                  ? (isDark ? const Color(0xFF93C5FD) : NotebookColors.inkNavy)
                   : (isDark ? const Color(0xFF38342E) : NotebookColors.borderNotebook),
               width: isSelected ? 2 : 1,
             ),
@@ -306,7 +390,7 @@ class HomeCurriculumScreen extends ConsumerWidget {
                 fontSize: 14,
                 fontWeight: FontWeight.w700,
                 color: isSelected
-                    ? NotebookColors.inkBlue
+                    ? Colors.white
                     : (isDark ? NotebookColors.chalkWhite : NotebookColors.inkCharcoal),
               ),
             ),

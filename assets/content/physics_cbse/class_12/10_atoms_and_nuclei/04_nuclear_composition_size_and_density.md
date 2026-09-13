@@ -4,13 +4,13 @@ chapter: "Atoms and Nuclei"
 part: 4 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:57"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Composition and Size of Nucleus, Nuclear Forces & Nuclear Density
 
@@ -448,4 +448,4 @@ $$
    * Nuclear force is strongest, but Coulomb repulsion dominates at distances greater than $\sim 3\text{ fm}$ because the strong force drops to zero.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

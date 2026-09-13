@@ -4,13 +4,13 @@ chapter: "Waves"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:25"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Displacement Relation for Progressive Waves & Speed of Mechanical Waves
 
@@ -297,4 +297,4 @@ $$
 | **Phase Difference vs Time Difference** | $\Delta \phi = \dfrac{2\pi}{T}\Delta t = \omega \Delta t$ | $\text{rad}$ | $[\text{M}^0 \text{L}^0 \text{T}^0]$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

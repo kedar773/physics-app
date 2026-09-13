@@ -4,13 +4,13 @@ chapter: "Gravitation"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:12"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Escape Velocity, Derivation, and Principle of Conservation of Energy
 
@@ -580,4 +580,4 @@ $$
 | **$E > 0$** ($v_0 > v_e$) | Hyperbola | **Unbound:** Reaches $\infty$ with residual speed $v_\infty > 0$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

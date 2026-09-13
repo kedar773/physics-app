@@ -4,13 +4,13 @@ chapter: "System of Particles and Rotational Motion"
 part: 4 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:01"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Moment of Inertia, Radius of Gyration & Values for Simple Geometrical Objects
 
@@ -905,4 +905,4 @@ For any family of geometrically similar bodies of uniform density $\rho$ scaled 
   - Moment of inertia increases by $2^5 = 32$ times.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Solids"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:22"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Engineering Applications: Bending of Beams, Buckling & Structural Design
 
@@ -539,4 +539,4 @@ $$
 * **For shafts transmitting torque or bearing multidirectional bending:** Use hollow circular sections ($I_g = \frac{\pi}{4}(r_2^4 - r_1^4)$) to provide isotropic resistance to buckling in all transverse planes.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

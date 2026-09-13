@@ -2,17 +2,17 @@
 title: "CBSE Class 12 Physics: Atoms and Nuclei - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:00"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 12 Physics: Atoms and Nuclei
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Alpha-Particle Scattering Experiment, Rutherford's Nuclear Model of Atom & Distance of Closest Approach
 
@@ -468,7 +468,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Bohr's Atomic Model, Energy Levels & Line Spectra of Hydrogen Atom
 
@@ -1197,7 +1197,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # De Broglie's Explanation of Bohr's Second Postulate of Quantisation
 
@@ -1480,7 +1480,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Composition and Size of Nucleus, Nuclear Forces & Nuclear Density
 
@@ -1921,7 +1921,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Mass-Energy Equivalence, Mass Defect & Binding Energy per Nucleon Curve
 
@@ -2593,7 +2593,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Nuclear Reactions: Nuclear Fission, Nuclear Fusion & Controlled Chain Reaction
 
@@ -3221,7 +3221,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -3570,7 +3570,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -3806,4 +3806,4 @@ $$
 | $\text{MeV}$ | $[\text{M}^1\text{L}^2\text{T}^{-2}\text{I}^0]$ | $Q > 0 \implies$ Exothermic; $Q < 0 \implies$ Endothermic |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

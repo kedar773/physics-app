@@ -4,13 +4,13 @@ chapter: "Electromagnetic Induction and Alternating Current"
 part: 6 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:58"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # LC Oscillations, AC Generator & Transformers
 
@@ -716,4 +716,4 @@ $$
    * Stepping up the transmission voltage by a factor of $n$ reduces line current by $\frac{1}{n}$, and therefore reduces Joule transmission power loss ($I^2 R$) by a factor of **$\frac{1}{n^2}$**.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

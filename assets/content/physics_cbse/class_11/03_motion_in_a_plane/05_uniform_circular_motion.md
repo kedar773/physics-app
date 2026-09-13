@@ -4,13 +4,13 @@ chapter: "Motion in a Plane"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:28"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Uniform Circular Motion, Angular Variables & Centripetal Acceleration
 
@@ -653,4 +653,4 @@ $$
   * If speed is **constant (UCM)**: $\vec{a}_{\text{net}} = \vec{a}_c$, strictly at $90^\circ$ to $\vec{v}$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

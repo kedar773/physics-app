@@ -4,13 +4,13 @@ chapter: "Waves"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:25"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Wave Motion, Transverse & Longitudinal Waves, and Wave Parameters
 
@@ -943,4 +943,4 @@ $$
 | **Phase / Path / Time Equivalence** | $\frac{\Delta \Phi}{2\pi} = \frac{\Delta x}{\lambda} = \frac{\Delta t}{T}$ | Universal kinematic identity |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Motion in a Straight Line"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:17"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Acceleration and Kinematic Graphs (x-t, v-t, and a-t Graphs)
 
@@ -847,4 +847,4 @@ $$
 | Average Velocity (Uniform $a$) | $v_{\text{avg}} = \frac{u + v}{2}$ | Rectilinear motion, $a = \text{constant}$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

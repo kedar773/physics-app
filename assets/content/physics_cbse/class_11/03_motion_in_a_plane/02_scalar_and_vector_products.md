@@ -4,13 +4,13 @@ chapter: "Motion in a Plane"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:27"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Scalar (Dot) Product and Vector (Cross) Product of Vectors
 
@@ -645,4 +645,4 @@ $$
 * If both $\vec{A} \cdot \vec{B} = 0$ AND $\vec{A} \times \vec{B} = \vec{0}$ simultaneously, at least one of the vectors **must be a null vector** ($\vec{A} = \vec{0}$ or $\vec{B} = \vec{0}$).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

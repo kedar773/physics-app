@@ -4,13 +4,13 @@ chapter: "Laws of Motion"
 part: 1 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:37"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Intuitive Concept of Force, Inertia & Newton's First Law of Motion
 
@@ -477,4 +477,4 @@ $$
   * Weight is a vector force ($\vec{W} = m\vec{g}$) dependent on local gravitational field strength.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

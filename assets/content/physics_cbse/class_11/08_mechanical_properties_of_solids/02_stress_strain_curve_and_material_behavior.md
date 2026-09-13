@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Solids"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:20"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Stress-Strain Curve, Proportional Limit, Yield Point & Fracture
 
@@ -457,4 +457,4 @@ $$
    * Materials with large hysteresis loops are engineered for **shock absorbers and automobile vibration dampers**.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

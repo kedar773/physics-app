@@ -4,13 +4,13 @@ chapter: "Thermal Properties of Matter"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:50"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Temperature Scales, Thermometry & Thermal Expansion in Solids, Liquids and Gases
 
@@ -994,4 +994,4 @@ $$
 ```
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

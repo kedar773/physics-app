@@ -4,13 +4,13 @@ chapter: "Thermodynamics"
 part: 7 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:02"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -192,4 +192,4 @@ $$
 | **Relation between $\eta$ and $\beta$** | $\beta = \frac{1 - \eta}{\eta}$ | Dimensionless | $[\text{M}^0 \text{L}^0 \text{T}^0]$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

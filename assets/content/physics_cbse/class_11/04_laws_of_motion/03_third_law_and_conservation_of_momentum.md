@@ -4,13 +4,13 @@ chapter: "Laws of Motion"
 part: 3 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:38"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Newton's Third Law of Motion & Conservation of Linear Momentum
 
@@ -610,4 +610,4 @@ h = \frac{v_{\text{common}}^2}{2g} = \frac{1}{2g}\left(\frac{m}{m + M} v\right)^
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

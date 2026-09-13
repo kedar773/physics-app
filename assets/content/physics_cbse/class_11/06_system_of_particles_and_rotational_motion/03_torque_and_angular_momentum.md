@@ -4,13 +4,13 @@ chapter: "System of Particles and Rotational Motion"
 part: 3 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:00"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Torque, Angular Momentum, Conservation Law & Equilibrium of Rigid Bodies
 
@@ -789,4 +789,4 @@ $$
   *(Kepler's Second Law of equal areas swept in equal time intervals is a direct consequence: $\frac{dA}{dt} = \frac{L}{2m} = \text{constant}$).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

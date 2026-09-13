@@ -4,13 +4,13 @@ chapter: "Electrostatics"
 part: 6 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:17"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Capacitors and Capacitance, Parallel Plate Capacitor with Dielectric, Combinations, and Energy Stored
 
@@ -917,4 +917,4 @@ $$
   For $n$ identical capacitors: $\frac{C_P}{C_S} = n^2$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

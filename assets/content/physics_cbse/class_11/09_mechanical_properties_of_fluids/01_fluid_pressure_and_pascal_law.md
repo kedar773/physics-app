@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Fluids"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:35"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Fluid Statics: Pressure, Pascal's Law, Hydraulic Machines & Atmospheric Pressure
 
@@ -791,4 +791,4 @@ $$
    If the radius doubles, the mechanical advantage increases by a factor of **$4$**, not $2$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

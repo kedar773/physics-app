@@ -4,13 +4,13 @@ chapter: "Thermodynamics"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:58"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Thermal Equilibrium, Zeroth Law of Thermodynamics & Concept of Temperature
 
@@ -423,4 +423,4 @@ $$
   - Triple point reference scale always uses **$273.16$**, never $273.15$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

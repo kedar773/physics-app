@@ -4,13 +4,13 @@ chapter: "Units and Measurements"
 part: 2 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:07"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Measurement of Length, Mass, and Time (Ranges, Estimation & Parallax Method)
 
@@ -601,4 +601,4 @@ $$
 * [x] **Hierarchy of cosmic distances:** $\text{Parsec} > \text{Light-Year} > \text{Astronomical Unit}$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

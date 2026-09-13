@@ -4,13 +4,13 @@ chapter: "Thermal Properties of Matter"
 part: 7 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:54"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -275,4 +275,4 @@ $$
 | **Cooling Constant ($k$)** | $k = \frac{4 e \sigma A T_0^3}{m s}$ | $\text{s}^{-1}$ | $[\text{M}^0 \text{L}^0 \text{T}^{-1} \text{K}^0]$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

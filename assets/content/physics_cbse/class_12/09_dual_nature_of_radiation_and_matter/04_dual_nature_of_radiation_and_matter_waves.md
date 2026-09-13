@@ -4,13 +4,13 @@ chapter: "Dual Nature of Radiation and Matter"
 part: 4 of 6
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:43"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Wave Nature of Matter, de Broglie Relation & de Broglie Wavelength of an Electron
 
@@ -554,4 +554,4 @@ $$
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

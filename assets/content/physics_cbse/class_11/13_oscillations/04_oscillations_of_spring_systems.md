@@ -4,13 +4,13 @@ chapter: "Oscillations"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:19"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Force Law for SHM and Linear Oscillations of Loaded Springs (Series & Parallel)
 
@@ -666,4 +666,4 @@ $$
 *(The effective oscillating mass includes one-third of the spring's mass).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

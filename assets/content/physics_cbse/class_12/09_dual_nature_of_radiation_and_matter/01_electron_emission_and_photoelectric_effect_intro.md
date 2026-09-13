@@ -4,13 +4,13 @@ chapter: "Dual Nature of Radiation and Matter"
 part: 1 of 6
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:41"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electron Emission & Experimental Study of the Photoelectric Effect
 
@@ -733,4 +733,4 @@ $$
 | **$V_0$ vs. Intensity** | $0$ (Horizontal line) | N/A | $V_0$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

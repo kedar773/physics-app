@@ -4,13 +4,13 @@ chapter: "Motion in a Straight Line"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:16"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Average & Instantaneous Speed and Velocity
 
@@ -384,4 +384,4 @@ $$
 | **Velocity via Integration** | $\Delta v = \int_{t_1}^{t_2} a(t)\,dt$ | $\text{m s}^{-1}$ | $[M^0 L T^{-1}]$ | Area under $a-t$ curve gives $\Delta v$, not $v$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

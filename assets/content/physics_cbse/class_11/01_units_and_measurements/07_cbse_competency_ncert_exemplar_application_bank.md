@@ -4,13 +4,13 @@ chapter: "Units and Measurements"
 part: 7 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:10"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -1030,4 +1030,4 @@ $$
 | **Specific Heat Capacity** | $s = \frac{Q}{m \cdot \Delta T}$ | $[\text{M}^0 \text{L}^2 \text{T}^{-2} \text{K}^{-1}]$ | $\text{J}\cdot\text{kg}^{-1}\cdot\text{K}^{-1}$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Thermodynamics"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:01"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Second Law of Thermodynamics, Reversible and Irreversible Processes & Heat Engines
 
@@ -915,4 +915,4 @@ $$
   Because $\gamma > 1$, the adiabatic expansion curve ($B \to C$) and adiabatic compression curve ($D \to A$) are **strictly steeper** than the isothermal expansion ($A \to B$) and compression ($C \to D$) curves at any intersection point.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

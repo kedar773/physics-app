@@ -4,13 +4,13 @@ chapter: "Magnetism and Matter"
 part: 2 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:34"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Torque, Work Done & Potential Energy of a Magnetic Dipole in a Uniform Field
 
@@ -607,4 +607,4 @@ $$
    * $\vec{M} \text{ antiparallel } \vec{B} \implies U = +MB$ (Maximum energy $\rightarrow$ **Most Unstable**)
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

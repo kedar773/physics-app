@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Solids"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:20"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Elastic Behavior of Solids, Stress, Strain & Hooke's Law
 
@@ -731,4 +731,4 @@ $$
 * $\nu = \frac{3B - 2\eta}{6B + 2\eta}$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

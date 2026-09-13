@@ -4,13 +4,13 @@ chapter: "Semiconductor Electronics: Materials, Devices and Simple Circuits"
 part: 2 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:04"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Intrinsic & Extrinsic Semiconductors (n-type and p-type Doping Mechanisms)
 
@@ -629,4 +629,4 @@ $$
   $k_B T \approx 0.026\text{ eV}$. This quickly verifies whether dopant levels ($0.01-0.05\text{ eV}$) ionize spontaneously at room temperature.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

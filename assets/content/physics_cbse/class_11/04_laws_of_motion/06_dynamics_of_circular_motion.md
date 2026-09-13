@@ -4,13 +4,13 @@ chapter: "Laws of Motion"
 part: 6 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:40"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Dynamics of Uniform Circular Motion: Centripetal Force, Level & Banked Tracks
 
@@ -938,4 +938,4 @@ $$
    *(Extremely high-frequency question in CBSE Board Exams & JEE Main).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

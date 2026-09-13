@@ -4,13 +4,13 @@ chapter: "Semiconductor Electronics: Materials, Devices and Simple Circuits"
 part: 4 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:05"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Semiconductor Diode & V-I Characteristics in Forward and Reverse Bias
 
@@ -728,4 +728,4 @@ $$
   - If $V_{\text{anode}} < V_{\text{cathode}}$: Diode is **OFF** (Reverse Biased, replace with an open circuit).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

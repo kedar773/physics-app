@@ -4,13 +4,13 @@ chapter: "Current Electricity"
 part: 4 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:17"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electrical Energy, Electric Power & Maximum Power Transfer Theorem
 
@@ -692,4 +692,4 @@ r = \frac{\mathcal{E}^2}{4 P_{\max}}
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

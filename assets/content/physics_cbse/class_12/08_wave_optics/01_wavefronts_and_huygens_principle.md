@@ -4,13 +4,13 @@ chapter: "wave optics"
 part: 1 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 16:26"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Wavefronts, Huygens' Principle & Proof of Reflection and Refraction
 
@@ -653,4 +653,4 @@ $$
   * **Concave Mirror:** Delays edges relative to center on reflection $\implies$ Plane wavefront becomes **converging spherical**.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

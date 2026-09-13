@@ -4,13 +4,13 @@ chapter: "Work, Energy and Power"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:50"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kinetic Energy & The Work-Energy Theorem for Constant and Variable Forces
 
@@ -576,4 +576,4 @@ $$
 - Area below the $x$-axis represents negative work ($\Delta K < 0$).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

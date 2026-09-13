@@ -4,13 +4,13 @@ chapter: "Atoms and Nuclei"
 part: 1 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:55"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Alpha-Particle Scattering Experiment, Rutherford's Nuclear Model of Atom & Distance of Closest Approach
 
@@ -463,4 +463,4 @@ $$
   The nucleus occupies only $10^{-12}$ (one-trillionth) of the total volume of an atom.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

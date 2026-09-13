@@ -4,13 +4,13 @@ chapter: "Motion in a Plane"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:27"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Position, Velocity, Acceleration in 2D & Relative Velocity in a Plane
 
@@ -775,4 +775,4 @@ $$
 *To eliminate an intermediate reference frame $B$, place adjacent indices identically and sum the vectors.*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

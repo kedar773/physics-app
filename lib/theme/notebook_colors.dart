@@ -26,6 +26,7 @@ class NotebookColors {
   static const Color inkSlate = Color(0xFF334155);
   static const Color inkNavy = Color(0xFF1E3A8A);
   static const Color inkBlue = Color(0xFF1D4ED8);
+  static const Color physicsBlueAccent = Color(0xFF2563EB);
   static const Color inkCrimson = Color(0xFF991B1B);
   static const Color inkRed = Color(0xFFDC2626);
   static const Color inkGreen = Color(0xFF15803D);

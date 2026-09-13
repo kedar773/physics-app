@@ -4,13 +4,13 @@ chapter: "Current Electricity"
 part: 1 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:15"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Current, Drift Velocity, Mobility & Microscopic and Macroscopic Ohm's Law
 
@@ -653,4 +653,4 @@ $$
    * $[\sigma] = [\text{M}^{-1}\text{L}^{-3}\text{T}^3\text{I}^2]$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

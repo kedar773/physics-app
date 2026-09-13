@@ -4,13 +4,13 @@ chapter: "Kinetic Theory"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:06"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kinetic Interpretation of Temperature, Kinetic Energy & RMS Speed
 
@@ -222,4 +222,4 @@ $$
 | **Number Density ($n$)** | $n = \frac{N}{V} = \frac{P}{k_B T}$ | $\text{m}^{-3}$ | $[\text{M}^0 \text{L}^{-3} \text{T}^0]$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

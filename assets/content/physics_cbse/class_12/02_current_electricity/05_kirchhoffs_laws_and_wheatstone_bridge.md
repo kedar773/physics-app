@@ -4,13 +4,13 @@ chapter: "Current Electricity"
 part: 5 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:18"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kirchhoff's Rules (KCL, KVL) & Wheatstone Bridge Principle with Applications
 
@@ -719,4 +719,4 @@ $$
 3. **Bridge Sensitivity:** Maximum sensitivity occurs when all four arms have equal resistance ($P \approx Q \approx R \approx S$). Sensitivity drops drastically if arm ratios differ by orders of magnitude (e.g., $1\ \Omega$ vs $10{,}000\ \Omega$).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Units and Measurements"
 part: 3 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:08"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Systematic & Random Errors, Absolute, Relative, Percentage Error and Combination of Errors
 
@@ -741,4 +741,4 @@ $$
    This immediately sets the tolerance ceiling for the $k$-th measuring device.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

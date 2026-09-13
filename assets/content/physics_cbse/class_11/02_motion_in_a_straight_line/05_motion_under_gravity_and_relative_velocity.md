@@ -4,13 +4,13 @@ chapter: "Motion in a Straight Line"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:18"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Motion Under Gravity (Free Fall) & Relative Velocity in One Dimension
 
@@ -890,4 +890,4 @@ The separation between the two balls increases strictly **linearly** with time $
 | **Relative Acceleration in Free Fall** | $a_{\text{rel}} = 0$ | Any 2 free-falling bodies |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

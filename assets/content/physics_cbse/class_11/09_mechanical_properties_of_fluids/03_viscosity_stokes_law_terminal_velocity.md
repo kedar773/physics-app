@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Fluids"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:36"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Viscous Drag: Coefficient of Viscosity, Poiseuille's Flow, Stokes' Law & Terminal Velocity
 
@@ -738,4 +738,4 @@ $$
 | **Poiseuille’s Flow** | $V = \frac{\pi P r^4}{8\eta L}$ | Highly sensitive to radius ($V \propto r^4$) |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

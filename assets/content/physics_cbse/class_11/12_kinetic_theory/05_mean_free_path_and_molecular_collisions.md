@@ -4,13 +4,13 @@ chapter: "Kinetic Theory"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:07"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Mean Free Path, Collision Frequency & Molecular Collisions
 
@@ -565,4 +565,4 @@ $$
    * Ratio relation: $\lambda \approx \frac{(r_{\text{sep}})^3}{d^2}$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

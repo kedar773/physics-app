@@ -4,13 +4,13 @@ chapter: "Current Electricity"
 part: 3 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:16"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electromotive Force (EMF), Internal Resistance, Terminal Potential Difference & Cells in Series/Parallel
 
@@ -876,4 +876,4 @@ $$
 ```
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

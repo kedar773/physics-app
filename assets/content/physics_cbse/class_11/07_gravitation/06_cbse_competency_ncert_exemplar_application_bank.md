@@ -4,13 +4,13 @@ chapter: "Gravitation"
 part: 6 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:14"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -1002,4 +1002,4 @@ $$
 | **Kepler's 3rd Law** | $T^2 = \left(\frac{4\pi^2}{GM}\right) a^3$ | $a$ is the semi-major axis ($a = r$ for circular orbit). |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

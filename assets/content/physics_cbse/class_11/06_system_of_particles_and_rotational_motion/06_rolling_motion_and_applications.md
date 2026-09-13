@@ -4,13 +4,13 @@ chapter: "System of Particles and Rotational Motion"
 part: 6 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:02"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Pure Rolling Motion, Kinetic Energy of Rolling & Motion on an Inclined Plane
 
@@ -733,4 +733,4 @@ $$
 - **Mnemonic:** *"Solid Sphere is the Sleekest, Ring is the Reluctant."*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

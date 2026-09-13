@@ -4,13 +4,13 @@ chapter: "Semiconductor Electronics: Materials, Devices and Simple Circuits"
 part: 3 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:05"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # p-n Junction Formation, Depletion Region & Barrier Potential
 
@@ -517,4 +517,4 @@ $$
   * $V_0 \sim 0.3\text{ to }0.7\text{ V}$ (sub-volt scale).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

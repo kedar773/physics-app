@@ -4,13 +4,13 @@ chapter: "Oscillations"
 part: 5 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:19"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Simple Pendulum Derivations, Restoring Torque, and Factors Affecting Time Period
 
@@ -550,4 +550,4 @@ T_{\text{total}} = \frac{T_1}{2} + \frac{T_2}{2} = \pi\sqrt{\frac{L}{g}} + \pi\s
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

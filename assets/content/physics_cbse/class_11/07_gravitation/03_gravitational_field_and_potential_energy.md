@@ -4,13 +4,13 @@ chapter: "Gravitation"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:11"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Gravitational Field Intensity, Potential, and Gravitational Potential Energy
 
@@ -710,4 +710,4 @@ v = v_e \sqrt{\frac{\eta}{1 + \eta}}
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

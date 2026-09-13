@@ -4,13 +4,13 @@ chapter: "Ray Optics and Optical Instruments"
 part: 3 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:34"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Refraction at Spherical Surfaces, Lens Maker's Formula & Thin Lens Formula
 
@@ -497,4 +497,4 @@ $$
   * Intensity reduces to half ($I' = I/2$) because effective aperture area is halved.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

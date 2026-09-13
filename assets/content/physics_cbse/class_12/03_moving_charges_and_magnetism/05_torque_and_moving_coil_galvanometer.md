@@ -4,13 +4,13 @@ chapter: "Moving Charges and Magnetism"
 part: 5 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:27"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Torque on a Current Loop, Magnetic Dipole Moment & Moving Coil Galvanometer (Conversion to Ammeter/Voltmeter)
 
@@ -909,4 +909,4 @@ $$
 The torque depends **only on the enclosed area $A$ and orientation**, completely independent of the shape of the loop (circle, square, triangle, or irregular boundary).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

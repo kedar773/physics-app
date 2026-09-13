@@ -4,13 +4,13 @@ chapter: "Thermodynamics"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:00"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Isothermal, Adiabatic, Isochoric & Isobaric Processes with Work Done Derivations
 
@@ -979,4 +979,4 @@ $$
 | **Polyatomic / Non-linear** ($H_2O, NH_3$) | $6$ | $3R$ | $4R$ | $\frac{4}{3} \approx 1.33$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Laws of Motion"
 part: 5 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:39"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Friction: Static, Limiting and Kinetic Friction, Laws & Applications
 
@@ -652,4 +652,4 @@ $$
   *(For $\theta = 45^\circ$, $\tan 45^\circ = 1$, yielding $\mu = 1 - \frac{1}{n^2}$).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

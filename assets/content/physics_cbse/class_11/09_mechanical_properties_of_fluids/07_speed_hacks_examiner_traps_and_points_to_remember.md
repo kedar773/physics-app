@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Fluids"
 part: 7 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:39"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -297,4 +297,4 @@ $$
 | **Reynolds Number** | $R_e = \frac{\rho v d}{\eta}$ | Dimensionless | $[\text{M}^{0}\text{L}^{0}\text{T}^{0}]$ | $d =$ internal pipe diameter or characteristic obstacle dimension. |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

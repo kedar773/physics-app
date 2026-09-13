@@ -2,17 +2,17 @@
 title: "CBSE Class 11 Physics: System of Particles and Rotational Motion - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:04"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 11 Physics: System of Particles and Rotational Motion
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Centre of Mass of Two-Particle and Rigid Body Systems & Its Motion
 
@@ -853,7 +853,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Linear Momentum Conservation, Centre of Mass Frame & Vector Product of Vectors
 
@@ -1571,7 +1571,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Torque, Angular Momentum, Conservation Law & Equilibrium of Rigid Bodies
 
@@ -2353,7 +2353,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Moment of Inertia, Radius of Gyration & Values for Simple Geometrical Objects
 
@@ -3251,7 +3251,7 @@ For any family of geometrically similar bodies of uniform density $\rho$ scaled 
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Kinematics and Dynamics of Rotational Motion & Work-Energy Relations
 
@@ -4132,7 +4132,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Pure Rolling Motion, Kinetic Energy of Rolling & Motion on an Inclined Plane
 
@@ -4858,7 +4858,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -6272,7 +6272,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -6522,4 +6522,4 @@ $$
 | **Rotational Kinematics Eq. 3** | $\omega^2 = \omega_0^2 + 2\alpha\theta$ | $\text{rad}^2\cdot\text{s}^{-2}$ | $[\text{M}^0 \text{L}^0 \text{T}^{-2}]$ | Constant angular acceleration $\alpha$ |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

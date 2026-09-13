@@ -4,13 +4,13 @@ chapter: "Units and Measurements"
 part: 1 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:06"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Need for Measurement, SI Base & Supplementary Units, and Derived Quantities
 
@@ -771,4 +771,4 @@ $$
    Use this immediately in electrostatics (Gauss's Law flux through disc/ring apertures) and wave optics without setting up double surface integrals.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

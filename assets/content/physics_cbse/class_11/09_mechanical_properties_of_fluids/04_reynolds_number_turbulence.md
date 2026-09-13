@@ -4,13 +4,13 @@ chapter: "Mechanical Properties of Fluids"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:37"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Flow Regimes: Critical Velocity, Reynolds Number & Turbulence
 
@@ -467,4 +467,4 @@ $$
   * $v_c \propto \frac{1}{D}$ (Narrower pipes support streamline flow up to much higher speeds).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

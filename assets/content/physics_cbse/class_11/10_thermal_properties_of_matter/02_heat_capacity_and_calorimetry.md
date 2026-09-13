@@ -4,13 +4,13 @@ chapter: "Thermal Properties of Matter"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:50"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Heat Capacity, Specific Heat Capacity & Principle of Calorimetry
 
@@ -657,4 +657,4 @@ $$
 *(Applies only when no phase changes occur across the temperature range.)*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

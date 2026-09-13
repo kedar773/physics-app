@@ -4,13 +4,13 @@ chapter: "Work, Energy and Power"
 part: 4 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:51"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Potential Energy of a Spring & Motion in a Vertical Circle
 
@@ -625,4 +625,4 @@ $$
    * $u \ge \sqrt{4gL} = 2\sqrt{gL} \implies$ Full loop completed.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

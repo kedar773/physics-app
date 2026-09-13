@@ -4,13 +4,13 @@ chapter: "Semiconductor Electronics: Materials, Devices and Simple Circuits"
 part: 7 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:07"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -194,4 +194,4 @@ $$
 | $\text{V}\cdot\text{m}^{-1} \text{ or } \text{N}\cdot\text{C}^{-1}$ | $[\text{M}^1\text{L}^1\text{T}^{-3}\text{A}^{-1}]$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

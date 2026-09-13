@@ -4,13 +4,13 @@ chapter: "Moving Charges and Magnetism"
 part: 4 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:27"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Force on a Current-Carrying Conductor & Interaction Between Two Parallel Current-Carrying Wires
 
@@ -534,4 +534,4 @@ $$
   4. **Conclusion:** The mutual force per unit length becomes **halved** ($f' = f/2$).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

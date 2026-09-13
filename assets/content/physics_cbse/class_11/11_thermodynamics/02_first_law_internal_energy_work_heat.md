@@ -4,13 +4,13 @@ chapter: "Thermodynamics"
 part: 2 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:58"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Internal Energy, Work, Heat & First Law of Thermodynamics
 
@@ -685,4 +685,4 @@ $$
 | **Triatomic / Polyatomic (Non-linear)** | $\text{H}_2\text{O}, \text{NH}_3$ | $3 + 3 = 6$ | $3R$ | $4R$ | $\frac{4}{3} \approx 1.33$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Magnetism and Matter"
 part: 6 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:36"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -740,4 +740,4 @@ $$
     Diamagnetic substances develop induced dipole moments opposite to the external field. When a thin diamagnetic bar is suspended freely in a magnetic field, the field exerts a torque that turns it across the field lines, aligning its longest axis perpendicular to the field to minimize flux linkage. **[3/4 Mark]**
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

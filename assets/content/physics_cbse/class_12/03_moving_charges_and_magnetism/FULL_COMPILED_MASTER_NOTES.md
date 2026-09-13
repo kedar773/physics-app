@@ -2,17 +2,17 @@
 title: "CBSE Class 12 Physics: Moving Charges and Magnetism - Standalone Master Teaching Notes"
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:29"
 ---
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # CBSE Class 12 Physics: Moving Charges and Magnetism
 
 ### *Comprehensive Modular Lecture Notes, Step-by-Step Derivations & 5-Year PYQs*
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Lorentz Magnetic Force, Motion of Charged Particles in Uniform Fields & Helical Paths
 
@@ -564,7 +564,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Biot-Savart Law & Magnetic Field on the Axis/Center of a Circular Current Loop
 
@@ -1197,7 +1197,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Ampere's Circuital Law & Applications to Straight Wire and Long Solenoid
 
@@ -1788,7 +1788,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Force on a Current-Carrying Conductor & Interaction Between Two Parallel Current-Carrying Wires
 
@@ -2315,7 +2315,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Torque on a Current Loop, Magnetic Dipole Moment & Moving Coil Galvanometer (Conversion to Ammeter/Voltmeter)
 
@@ -3217,7 +3217,7 @@ The torque depends **only on the enclosed area $A$ and orientation**, completely
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -3904,7 +3904,7 @@ $$
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -4106,4 +4106,4 @@ $$
 | **Voltmeter Series Multiplier ($R$)** | $R = \frac{V}{I_g} - G$ | $\operatorname{Ohm} (\Omega)$ | $[\text{M L}^2\text{ T}^{-3}\text{A}^{-2}]$ |
 
 ***
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

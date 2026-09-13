@@ -4,13 +4,13 @@ chapter: "Motion in a Straight Line"
 part: 1 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:16"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Frame of Reference, Position, Path Length & Displacement
 
@@ -589,4 +589,4 @@ $$
    * $\text{Distance } s = \int |v(t)|\,dt = (\text{Area above } t\text{-axis}) + (\text{Area below } t\text{-axis})$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

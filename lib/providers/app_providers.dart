@@ -54,9 +54,15 @@ class ProfileNotifier extends StateNotifier<StudentProfile> {
     await _storage.saveProfile(updated);
   }
 
-  Future<void> resetProfile() async {
-    final fresh = StudentProfile.initial();
-    state = fresh;
+  Future<void> resetProgressOnly() async {
+    final preserved = state.copyWith(
+      completedChunkIds: [],
+      bookmarkedChunkIds: [],
+      questionScores: {},
+      streakDays: 1,
+      lastActiveDate: DateTime.now(),
+    );
+    state = preserved;
     await _storage.resetProgress();
   }
 }
@@ -72,6 +78,8 @@ class CompletedChunksNotifier extends StateNotifier<Set<String>> {
   final StorageService _storage;
 
   CompletedChunksNotifier(this._storage) : super(_storage.getCompletedChunkIds());
+
+  void refresh() => state = _storage.getCompletedChunkIds();
 
   Future<void> markCompleted(String chunkId) async {
     await _storage.markChunkCompleted(chunkId);
@@ -91,6 +99,8 @@ class BookmarksNotifier extends StateNotifier<Set<String>> {
 
   BookmarksNotifier(this._storage) : super(_storage.getBookmarkedChunkIds());
 
+  void refresh() => state = _storage.getBookmarkedChunkIds();
+
   Future<void> toggle(String chunkId) async {
     await _storage.toggleBookmark(chunkId);
     state = _storage.getBookmarkedChunkIds();
@@ -108,6 +118,8 @@ class QuestionScoresNotifier extends StateNotifier<Map<String, int>> {
   final StorageService _storage;
 
   QuestionScoresNotifier(this._storage) : super(_storage.getQuestionScores());
+
+  void refresh() => state = _storage.getQuestionScores();
 
   Future<void> recordScore(String questionId, int marks) async {
     await _storage.recordQuestionScore(questionId, marks);
@@ -159,7 +171,41 @@ final filteredChaptersProvider = Provider<List<Chapter>>((ref) {
   return chapters;
 });
 
-// Exam Plans Provider
-final examPlansProvider = Provider<List<ExamPlan>>((ref) {
-  return ExamPlan.getDefaultPlans();
+// Exam Plans Notifier
+class ExamPlansNotifier extends StateNotifier<List<ExamPlan>> {
+  final StorageService _storage;
+
+  ExamPlansNotifier(this._storage) : super(_initPlans(_storage));
+
+  static List<ExamPlan> _initPlans(StorageService storage) {
+    final existing = storage.getExamPlans();
+    if (existing.isNotEmpty) return existing;
+    return ExamPlan.getDefaultMilestones();
+  }
+
+  Future<void> addPlan(ExamPlan plan) async {
+    await _storage.saveExamPlan(plan);
+    state = _storage.getExamPlans();
+  }
+
+  Future<void> deletePlan(String id) async {
+    await _storage.deleteExamPlan(id);
+    state = _storage.getExamPlans();
+  }
+
+  Future<void> toggleTask(String planId, String chunkId) async {
+    await _storage.toggleTaskStatus(planId, chunkId);
+    state = _storage.getExamPlans();
+  }
+
+  void refresh() {
+    final existing = _storage.getExamPlans();
+    state = existing.isNotEmpty ? existing : ExamPlan.getDefaultMilestones();
+  }
+}
+
+final examPlansProvider =
+    StateNotifierProvider<ExamPlansNotifier, List<ExamPlan>>((ref) {
+  final storage = ref.watch(storageServiceProvider);
+  return ExamPlansNotifier(storage);
 });

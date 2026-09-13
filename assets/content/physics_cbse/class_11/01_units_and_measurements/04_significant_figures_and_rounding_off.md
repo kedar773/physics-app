@@ -4,13 +4,13 @@ chapter: "Units and Measurements"
 part: 4 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:08"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Significant Figures, Rules for Arithmetic Operations, and Rounding Off
 
@@ -547,4 +547,4 @@ $$
 | **Rounding ($>5$)** | Discarded part $> 5$ | $2.651$ (round to 2 SF) | — | **$2.7$** |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:intl/intl.dart';
+import '../models/exam_plan.dart';
 import '../models/student_profile.dart';
 
 class StorageService {
@@ -11,6 +12,7 @@ class StorageService {
   static const String _questionScoresKey = 'question_scores';
   static const String _lastReadChunkKey = 'last_read_chunk_id';
   static const String _isFirstLaunchKey = 'is_first_launch_done';
+  static const String _examPlansKey = 'exam_plans';
 
   late Box _box;
 
@@ -143,12 +145,68 @@ class StorageService {
     await _box.put(_lastReadChunkKey, chunkId);
   }
 
+  // --- Exam Revision Plans ---
+  List<ExamPlan> getExamPlans() {
+    final raw = _box.get(_examPlansKey);
+    if (raw is List) {
+      return raw.map((e) {
+        final map = Map<String, dynamic>.from(e as Map);
+        return ExamPlan.fromJson(map);
+      }).toList();
+    }
+    return [];
+  }
+
+  Future<void> saveExamPlan(ExamPlan plan) async {
+    final plans = getExamPlans();
+    final index = plans.indexWhere((p) => p.id == plan.id);
+    if (index >= 0) {
+      plans[index] = plan;
+    } else {
+      plans.add(plan);
+    }
+    await _box.put(_examPlansKey, plans.map((p) => p.toJson()).toList());
+  }
+
+  Future<void> deleteExamPlan(String planId) async {
+    final plans = getExamPlans();
+    plans.removeWhere((p) => p.id == planId);
+    await _box.put(_examPlansKey, plans.map((p) => p.toJson()).toList());
+  }
+
+  Future<void> toggleTaskStatus(String planId, String chunkId) async {
+    final plans = getExamPlans();
+    final planIndex = plans.indexWhere((p) => p.id == planId);
+    if (planIndex >= 0) {
+      final plan = plans[planIndex];
+      final updatedTasks = plan.dailyTasks.map((t) {
+        if (t.chunkId == chunkId) {
+          return t.copyWith(isCompleted: !t.isCompleted);
+        }
+        return t;
+      }).toList();
+      plans[planIndex] = plan.copyWith(dailyTasks: updatedTasks);
+      await _box.put(_examPlansKey, plans.map((p) => p.toJson()).toList());
+    }
+  }
+
   // --- Clear / Reset ---
   Future<void> resetProgress() async {
     await _box.delete(_completedChunksKey);
     await _box.delete(_bookmarkedChunksKey);
     await _box.delete(_questionScoresKey);
     await _box.delete(_lastReadChunkKey);
-    await saveProfile(StudentProfile.initial());
+    await _box.delete(_examPlansKey);
+
+    // Strictly preserve student identity: nickname, classLevel, targetExam, and avatar!
+    final current = getProfile();
+    final preserved = current.copyWith(
+      completedChunkIds: [],
+      bookmarkedChunkIds: [],
+      questionScores: {},
+      streakDays: 1,
+      lastActiveDate: DateTime.now(),
+    );
+    await saveProfile(preserved);
   }
 }

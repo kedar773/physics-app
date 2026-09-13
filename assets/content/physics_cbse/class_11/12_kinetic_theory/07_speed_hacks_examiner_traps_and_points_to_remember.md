@@ -4,13 +4,13 @@ chapter: "Kinetic Theory"
 part: 7 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:09"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -304,4 +304,4 @@ $$
 3. **Final Result ($1/2$ Mark)**: Numerical value with proper rounding (usually 2 or 3 significant figures) accompanied by the exact SI unit (e.g., $\text{m/s}$, $\text{J}$, $\text{Pa}$). Never leave an answer as an unresolved radical (such as $\sqrt{3000}$) in the final answer line.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

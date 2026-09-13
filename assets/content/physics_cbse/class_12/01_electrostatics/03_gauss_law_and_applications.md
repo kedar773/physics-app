@@ -4,13 +4,13 @@ chapter: "Electrostatics"
 part: 3 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:11"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Flux, Gauss's Theorem, and Applications to Line, Sheet, and Spherical Shell
 
@@ -1122,4 +1122,4 @@ E(r < R) = 0, \quad E(r = R) = \frac{\sigma}{\varepsilon_0}, \quad E(r > R) = \f
 $$
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

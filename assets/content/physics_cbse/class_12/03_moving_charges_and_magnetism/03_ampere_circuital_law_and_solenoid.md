@@ -4,13 +4,13 @@ chapter: "Moving Charges and Magnetism"
 part: 3 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:26"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Ampere's Circuital Law & Applications to Straight Wire and Long Solenoid
 
@@ -598,4 +598,4 @@ $$
    *(e.g., $10\ \text{turns/cm} = 1000\ \text{turns/m}$)*.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

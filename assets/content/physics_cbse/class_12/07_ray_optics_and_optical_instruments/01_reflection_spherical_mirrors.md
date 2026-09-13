@@ -4,13 +4,13 @@ chapter: "Ray Optics and Optical Instruments"
 part: 1 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:32"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Reflection of Light, Spherical Mirrors & Mirror Formula
 
@@ -579,4 +579,4 @@ $$
 | **Convex** | Anywhere in front | Between $P$ and $F$ behind mirror | **Virtual, Erect** | Diminished ($0 < m < +1$) |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

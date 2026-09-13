@@ -4,13 +4,13 @@ chapter: "Units and Measurements"
 part: 6 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:09"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Principle of Homogeneity and Applications of Dimensional Analysis with Limitations
 
@@ -848,4 +848,4 @@ $$
 - [ ] Can you recall recurring equivalent dimensional pairs ($\text{Work} = \text{Torque}$, $\text{Pressure} = \text{Modulus of Elasticity} = \text{Energy Density}$, $\frac{L}{R} = RC = T$)?
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

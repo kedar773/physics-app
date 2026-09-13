@@ -4,13 +4,13 @@ chapter: "Waves"
 part: 3 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 20:26"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Superposition Principle, Boundary Effects & Reflection of Waves
 
@@ -684,4 +684,4 @@ $$
 *(Transmitted wave phase shift is identically $\Delta \phi_t = 0$ in all cases).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

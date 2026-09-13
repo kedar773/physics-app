@@ -4,13 +4,13 @@ chapter: "Moving Charges and Magnetism"
 part: 7 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:29"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -212,4 +212,4 @@ $$
 | **Voltmeter Series Multiplier ($R$)** | $R = \frac{V}{I_g} - G$ | $\operatorname{Ohm} (\Omega)$ | $[\text{M L}^2\text{ T}^{-3}\text{A}^{-2}]$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

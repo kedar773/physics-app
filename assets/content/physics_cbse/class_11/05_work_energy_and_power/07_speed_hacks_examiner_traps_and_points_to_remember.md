@@ -4,13 +4,13 @@ chapter: "Work, Energy and Power"
 part: 7 of 7
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:54"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -511,4 +511,4 @@ Before finalizing any numerical response on your answer sheet:
 4. **Final Presentation:** Box final numerical answers with the explicit SI unit (e.g., $\mathbf{W = -14.7\text{ J}}$). Include a concluding sentence stating physical direction or context where appropriate.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

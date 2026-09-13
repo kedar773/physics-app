@@ -4,13 +4,13 @@ chapter: "Semiconductor Electronics: Materials, Devices and Simple Circuits"
 part: 1 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:03"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Energy Bands in Solids & Classification of Conductors, Insulators and Semiconductors
 
@@ -506,4 +506,4 @@ $$
    * **Semiconductors:** Conduction is governed almost entirely by **carrier concentration** ($\sigma \propto n(T)$).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

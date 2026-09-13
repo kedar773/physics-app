@@ -4,13 +4,13 @@ chapter: "Laws of Motion"
 part: 7 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:41"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master Competency & Application Question Bank: NCERT Exercises, Exemplar Problems & CBSE New Pattern Application Questions with Marking Schemes
 
@@ -1204,4 +1204,4 @@ $$
 | **Connected Bodies (Atwood)** | $a = \frac{(m_2 - m_1)g}{m_1 + m_2}, \quad T = \frac{2m_1 m_2 g}{m_1 + m_2}$ | Light, frictionless, inextensible string and massless pulley. |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

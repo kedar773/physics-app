@@ -4,13 +4,13 @@ chapter: "Atoms and Nuclei"
 part: 7 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:59"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Master CBSE Question Bank: All Questions from Last 5 Years (2020-2025) with Marking Schemes
 
@@ -356,4 +356,4 @@ $$
 3. **Graph Essentials:** When drawing the Binding Energy curve, clearly indicate the peak at $^{56}\text{Fe}$ ($8.75\text{ MeV}$), the flat middle region ($8.5\text{ MeV}$ for $30 < A < 170$), and the drop at $A > 170$ ($7.6\text{ MeV}$).
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

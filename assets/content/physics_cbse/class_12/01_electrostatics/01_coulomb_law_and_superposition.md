@@ -4,13 +4,13 @@ chapter: "Electrostatics"
 part: 1 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:10"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Charges, Conductors & Insulators, Coulomb's Law, and Superposition Principle
 
@@ -635,4 +635,4 @@ $$
   *(Proves that gravitational forces are completely negligible in atomic and molecular configurations).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

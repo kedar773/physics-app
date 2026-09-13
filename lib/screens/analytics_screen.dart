@@ -163,11 +163,16 @@ class AnalyticsScreen extends ConsumerWidget {
                             child: const Text("Cancel"),
                           ),
                           TextButton(
-                            onPressed: () {
-                              ref.read(studentProfileProvider.notifier).resetProfile();
-                              Navigator.pop(ctx);
+                            onPressed: () async {
+                              await ref.read(studentProfileProvider.notifier).resetProgressOnly();
+                              ref.read(completedChunksProvider.notifier).refresh();
+                              ref.read(bookmarksProvider.notifier).refresh();
+                              ref.read(questionScoresProvider.notifier).refresh();
+                              if (ctx.mounted) {
+                                Navigator.pop(ctx);
+                              }
                             },
-                            child: const Text("Reset Everything", style: TextStyle(color: Colors.red)),
+                            child: const Text("Reset Study Records", style: TextStyle(color: Colors.red)),
                           ),
                         ],
                       ),

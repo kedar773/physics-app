@@ -4,13 +4,13 @@ chapter: "Electromagnetic Waves"
 part: 2 of 7
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 22:34"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Sources, Generation & Transverse Nature of Electromagnetic Waves
 
@@ -630,4 +630,4 @@ $$
   Low frequencies (e.g., $50\text{ Hz}$ AC power lines) radiate negligibly; high frequencies (radio, microwaves, optical) radiate efficiently.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

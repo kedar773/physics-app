@@ -4,13 +4,13 @@ chapter: "Ray Optics and Optical Instruments"
 part: 4 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:34"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Power of a Lens & Combination of Thin Lenses in Contact
 
@@ -533,4 +533,4 @@ $$
    *(The system always behaves as an equivalent curved mirror).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "System of Particles and Rotational Motion"
 part: 1 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 18:59"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Centre of Mass of Two-Particle and Rigid Body Systems & Its Motion
 
@@ -848,4 +848,4 @@ $$
   *(Mass concentrated higher up shifts the CM higher).*
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

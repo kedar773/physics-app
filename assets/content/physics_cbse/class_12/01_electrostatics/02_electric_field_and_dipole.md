@@ -4,13 +4,13 @@ chapter: "Electrostatics"
 part: 2 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 21:11"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Electric Field, Field Lines, Electric Dipole, and Torque on a Dipole in Uniform Field
 
@@ -600,4 +600,4 @@ $$
    - If $\theta = \tan^{-1}(\sqrt{2}) \approx 54.74^\circ$, then $\vec{E}$ is perpendicular to $\vec{p}$.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

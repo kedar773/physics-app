@@ -4,13 +4,13 @@ chapter: "System of Particles and Rotational Motion"
 part: 8 of 8
 subject: "Physics"
 class: "11"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-05 19:04"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -260,4 +260,4 @@ $$
 | **Rotational Kinematics Eq. 3** | $\omega^2 = \omega_0^2 + 2\alpha\theta$ | $\text{rad}^2\cdot\text{s}^{-2}$ | $[\text{M}^0 \text{L}^0 \text{T}^{-2}]$ | Constant angular acceleration $\alpha$ |
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**

@@ -4,13 +4,13 @@ chapter: "Electromagnetic Induction and Alternating Current"
 part: 8 of 8
 subject: "Physics"
 class: "12"
-author: "Powered by Kedar's Chemistry 😎"
+author: "Powered by Kedar's Academy 😎"
 date: "2026-09-03 20:59"
 ---
 
 
 
-> ### **⚡ Powered by Kedar's Chemistry 😎**
+> ### **⚡ Powered by Kedar's Academy 😎**
 
 # Speed Hacks, Examiner Traps, Common Evaluation Mistakes & Golden Points to Remember
 
@@ -148,4 +148,4 @@ $$
 > **High-Frequency Dimensional Check**: Notice that the dimension of $\sqrt{LC}$, $\frac{L}{R}$, and $RC$ is strictly **Time** ($[\text{T}^1]$). Whenever you need to cross-check ratios in derivation or MCQs, use this property to detect inverted terms instantly.
 
 ---
-**⚡ Powered by Kedar's Chemistry 😎**
+**⚡ Powered by Kedar's Academy 😎**
