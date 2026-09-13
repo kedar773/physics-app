@@ -82,7 +82,7 @@ class _VectorPainter extends CustomPainter {
     if (mode == VectorMascotMode.pendulum) {
       // 1. Simple Harmonic Pendulum
       final pivot = Offset(center.dx, center.dy - r * 0.7);
-      final maxAngle = 0.55; // radians (~31 degrees)
+      const maxAngle = 0.55; // radians (~31 degrees)
       final theta = maxAngle * math.sin(progress * 2 * math.pi);
 
       final stringLen = r * 1.3;
@@ -142,7 +142,7 @@ class _VectorPainter extends CustomPainter {
 
       // Draw spring coils
       final springPath = Path()..moveTo(top.dx, top.dy);
-      final coils = 7;
+      const coils = 7;
       final step = (blockY - top.dy - r * 0.2) / coils;
       for (int i = 0; i < coils; i++) {
         final xOffset = (i % 2 == 0 ? -12.0 : 12.0);

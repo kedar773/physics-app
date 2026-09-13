@@ -34,13 +34,13 @@ class NotebookPaperPainter extends CustomPainter {
 
     // Draw vertical red margin line
     if (showMarginLine && size.width > 60) {
-      final marginX = 36.0;
+      const marginX = 36.0;
       final marginPaint = Paint()
         ..color = (isDark ? NotebookColors.darkMarginLine : NotebookColors.marginLine).withValues(alpha: 0.35)
         ..strokeWidth = 1.5
         ..style = PaintingStyle.stroke;
 
-      canvas.drawLine(Offset(marginX, 0), Offset(marginX, size.height), marginPaint);
+      canvas.drawLine(const Offset(marginX, 0), Offset(marginX, size.height), marginPaint);
     }
   }
 

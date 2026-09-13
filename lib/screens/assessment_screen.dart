@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../models/question.dart';
 import '../providers/app_providers.dart';
 import '../theme/notebook_colors.dart';
 import '../theme/notebook_paper_painter.dart';
@@ -27,9 +26,9 @@ class _AssessmentScreenState extends ConsumerState<AssessmentScreen> {
     final questionScores = ref.watch(questionScoresProvider);
 
     if (allQuestions.isEmpty) {
-      return Scaffold(
+      return const Scaffold(
         body: NotebookCanvas(
-          child: const Center(
+          child: Center(
             child: Text("No assessment questions loaded."),
           ),
         ),
@@ -89,6 +88,25 @@ class _AssessmentScreenState extends ConsumerState<AssessmentScreen> {
                       q.tag,
                       style: GoogleFonts.inter(fontSize: 12, color: Colors.grey),
                     ),
+                    if (hasAttempted) ...[
+                      const SizedBox(width: 8),
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                        decoration: BoxDecoration(
+                          color: NotebookColors.hlGreen,
+                          borderRadius: BorderRadius.circular(4),
+                          border: Border.all(color: NotebookColors.hlGreenBorder),
+                        ),
+                        child: Text(
+                          "✓ Attempted",
+                          style: GoogleFonts.inter(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w700,
+                            color: NotebookColors.inkGreen,
+                          ),
+                        ),
+                      ),
+                    ],
                     const Spacer(),
                     Text(
                       "${q.marks} Mark${q.marks > 1 ? 's' : ''}",

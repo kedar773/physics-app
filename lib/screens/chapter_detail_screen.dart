@@ -6,14 +6,10 @@ import '../animations/mascot_photon.dart';
 import '../animations/mascot_vector.dart';
 import '../animations/notebook_route_transition.dart';
 import '../models/chapter.dart';
-import '../models/chunk.dart';
-import '../models/deep_dive.dart';
-import '../models/question.dart';
 import '../providers/app_providers.dart';
 import '../theme/notebook_colors.dart';
 import '../theme/notebook_paper_painter.dart';
 import '../widgets/examiner_trap_card.dart';
-import '../widgets/highlighter_formula_box.dart';
 import '../widgets/markdown_latex_view.dart';
 import '../widgets/scratchpad_dialog.dart';
 import 'chunk_reader_screen.dart';
@@ -664,7 +660,7 @@ class _ChapterDetailScreenState extends ConsumerState<ChapterDetailScreen>
               "Always fix a positive coordinate direction at the very start of your derivation.",
           remedy: "State '+x is forward / +y is upward' explicitly in step 1 of your board answer sheet.",
         ),
-        ExaminerTrapCard(
+        const ExaminerTrapCard(
           trapTitle: "Missing Final SI Units",
           trapDescription:
               "CBSE official marking schemes strictly deduct ½ mark if the numerical answer is correct but missing its standard SI unit.",

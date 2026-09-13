@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../animations/avatar_animator.dart';
 import '../animations/notebook_route_transition.dart';
-import '../models/chapter.dart';
 import '../providers/app_providers.dart';
 import '../theme/notebook_colors.dart';
 import '../theme/notebook_paper_painter.dart';

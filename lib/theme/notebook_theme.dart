@@ -6,7 +6,6 @@ class NotebookTheme {
   NotebookTheme._();
 
   static ThemeData lightTheme() {
-    final baseTextTheme = ThemeData.light().textTheme;
     final primaryFontFamily = GoogleFonts.inter().fontFamily;
     final titleFontFamily = GoogleFonts.kalam().fontFamily;
 
@@ -113,7 +112,6 @@ class NotebookTheme {
   }
 
   static ThemeData darkTheme() {
-    final baseTextTheme = ThemeData.dark().textTheme;
     final primaryFontFamily = GoogleFonts.inter().fontFamily;
     final titleFontFamily = GoogleFonts.kalam().fontFamily;
 

@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:intl/intl.dart';
 import '../models/student_profile.dart';
-import '../models/exam_plan.dart';
 
 class StorageService {
   static const String _boxName = 'physics_notebook_store';
@@ -10,7 +9,6 @@ class StorageService {
   static const String _completedChunksKey = 'completed_chunks';
   static const String _bookmarkedChunksKey = 'bookmarked_chunks';
   static const String _questionScoresKey = 'question_scores';
-  static const String _examPlansKey = 'exam_plans';
   static const String _lastReadChunkKey = 'last_read_chunk_id';
   static const String _isFirstLaunchKey = 'is_first_launch_done';
 

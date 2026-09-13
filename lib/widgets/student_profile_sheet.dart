@@ -262,7 +262,9 @@ class _StudentProfileSheetState extends ConsumerState<StudentProfileSheet> {
                     await notifier.setTargetExam(_selectedTarget);
                     await notifier.setAvatarIndex(_selectedAvatar);
                     ref.read(selectedClassProvider.notifier).state = _selectedClass;
-                    Navigator.pop(context);
+                    if (context.mounted) {
+                      Navigator.pop(context);
+                    }
                   },
                   child: const Text("Save & Apply Changes"),
                 ),

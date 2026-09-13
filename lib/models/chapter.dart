@@ -43,6 +43,10 @@ class Chapter {
     required this.deepDives,
   });
 
+  int get chunksCount => chunks.length;
+  int get questionsCount => questions.length;
+  int get deepDivesCount => deepDives.length;
+
   factory Chapter.fromJson(Map<String, dynamic> json) {
     int parsedClassLevel = 11;
     if (json['classLevel'] != null) {
