@@ -1,112 +1,112 @@
-# ⚛️ Kedar's Physics Engine — Warm Dotted Notebook Edition
-
-> **The Ultimate Interactive Physics Companion for CBSE Class 11, Class 12, JEE Main, JEE Advanced & NEET.**
-> Engineered with pure-line NCERT core notes, 2020–2025 CBSE PYQ vaults, step-wise marking rubrics, 6 custom animated study personas, 3 dynamic physics domain mascots, and a built-in digital whiteboard scratchpad.
+# ⚛️ Kedar's Physics Engine
+### *The Warm Dotted Notebook Study Companion for CBSE Class 11, Class 12, JEE Main, JEE Advanced & NEET*
 
 ---
 
-## 🌟 What is Kedar's Physics Engine?
+## 🌟 Welcome to Your Digital Physics Sanctuary
 
-**Kedar's Physics Engine** is a modern, high-density educational mobile application built specifically to empower students tackling CBSE Senior Secondary examinations and competitive entrance tests (JEE Main, JEE Advanced, NEET).
+Physics isn't about memorizing scary equations or endlessly flipping through heavy textbooks late at night. It's about seeing how the universe dances—from why a cricket ball follows a parabolic arc, to how electromagnetic waves carry your music through thin air.
 
-Clothed in the signature **Warm Dotted Notebook Theme** matching the official web portal, the app replaces rote formula memorization with intuitive derivations, fluorescent highlighter callout boxes, and interactive physics concept checks.
+**Kedar's Physics Engine** was designed from the ground up to be the friendliest, clearest, and most comforting physics study companion for senior secondary students. Inspired by the warmth of a classic cream-paper dotted notebook with neat margin rules and colorful highlighter callouts, this app gives you everything you need to understand physics deeply and walk into your CBSE board exams and competitive tests with total confidence.
 
----
-
-## ✨ Key Features & Architecture
-
-### 1. 🛡️ Strict NCERT Pure-Line vs. Advanced Segregation
-- **Primary Reading Flow (Tabs 01–04)**:
-  - **01 NCERT Core Notes**: 182 micro-chunks covering all 25 chapters with crystal-clear mathematical derivations.
-  - **02 Solved Examples**: Worked problems breaking down every step according to official CBSE marking guidelines.
-  - **03 2020–2025 PYQ Vault**: Authentic board exam archive with exact step-wise mark allocations (`[½ Mark]`, `[1 Mark]`).
-  - **04 Examiner Traps & Hacks**: Caution notes highlighting common sign errors, missing SI units, and boundary assumptions.
-- **Dedicated Advanced Section (JEE Main • JEE Advanced • NEET)**:
-  - All non-board extras (calculus lemmas, non-inertial frames, advanced multi-body mechanics, Vernier/Screw Gauge precision error towers, relativistic corrections) are strictly segregated into the **Advanced Studies** sheet.
-  - Includes the prominent **CBSE Peace-of-Mind Notice**: *"Students focusing solely on 95%+ in CBSE Board Examinations can safely skip this section without missing any board marks."*
-
-### 2. 🤖 6 Interactive Animated Physics Avatars
-Choose from 6 unique animated companions crafted with Flutter `CustomPainter` to guide your daily revisions:
-- 🍎 **Sir Isaac** (*Classical Mechanics & Calculus Visionary*)
-- ⚡ **Sparky Tesla** (*Electromagnetism & AC Dynamo*)
-- 🤖 **Vector Bot** (*Force Vector & Kinematics Calculator*)
-- 💡 **Photon Einstein** (*Quantum Intuition & Photoelectric Master*)
-- 🦉 **Athena Owl** (*CBSE Step-Marking & Derivation Strategist*)
-- 🔭 **Astro Galileo** (*Optics, Astronomy & Gravitation Pioneer*)
-
-### 3. 🧬 3 Dynamic Physics Domain Mascots
-Every chapter features an animated domain mascot whose visual behavior reflects the scientific laws:
-- ⚙️ **Mascot Vector (Mechanics & Gravitation)**: Harmonic pendulum oscillation and spring-mass dynamics.
-- ⚡ **Mascot Amp (Electromagnetism & Circuits)**: Pulsing magnetic field loops and sinusoidal electromagnetic waves.
-- 🌈 **Mascot Photon (Optics & Modern Physics)**: Triangular glass prism with dispersed rainbow spectrum and Bohr atomic orbit jumps.
-
-### 4. ✏️ Built-in Student Whiteboard Scratchpad
-- Full drawing canvas with multiple pen colors (Charcoal Ink, Vivid Blue, Marker Red, Marker Green), eraser, stroke thickness slider, and undo.
-- Work out numericals, free-body diagrams (FBDs), and circuit schematics directly within the app without switching tools.
-
-### 5. ⚛️ Physical Constants Cheat Sheet
-Quick bottom sheet displaying fundamental physical constants with one-tap copy:
-- Speed of light ($c = 3.00 \times 10^8\text{ m/s}$)
-- Planck's constant ($h = 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$)
-- Permittivity ($\varepsilon_0 = 8.854 \times 10^{-12}\text{ F/m}$)
-- Permeability ($\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$)
-- Gravitational constant ($G = 6.674 \times 10^{-11}\text{ N}\cdot\text{m}^2/\text{kg}^2$)
-- Rest masses ($m_e, m_p$), charge ($e$), and gas constant ($R$).
-
-### 6. 📅 Exam Countdown & Daily Study Quota Planner
-- Live countdown timers for CBSE Class 12 Boards 2027, JEE Main 2027, NEET UG 2027, and Class 11 Annual Exams.
-- Daily topic target scheduler and persistent study streak counter.
-
-### 7. 🏛️ STEM Academy Cross-Subject Switcher
-Instant navigation between all three sister engines:
-- ⚛️ **Kedar's Physics Engine** (Current App / Web Portal)
-- 📐 **Kedar's Mathematics Engine**
-- 🧪 **Kedar's Chemistry Engine**
+Best of all: **It is 100% offline, completely private, and completely free of ads or subscriptions.**
 
 ---
 
-## 📚 Complete Syllabus Coverage (25 Chapters)
+## ✨ What Makes Kedar's Physics Engine Special?
 
-### Class 11 Physics (14 Chapters)
-1. Units and Measurements
-2. Motion in a Straight Line
-3. Motion in a Plane
-4. Laws of Motion
-5. Work, Energy and Power
-6. System of Particles & Rotational Motion
-7. Gravitation
-8. Mechanical Properties of Solids
-9. Mechanical Properties of Fluids
-10. Thermal Properties of Matter
-11. Thermodynamics
-12. Kinetic Theory of Gases
-13. Oscillations
-14. Waves
+### 📖 1. NCERT Pure-Line Concept Bites
+- Every one of the 25 chapters is split into digestible, bite-sized micro-chunks.
+- Written in clean, friendly language with **"Explain Like I'm 5"** analogies that make tricky abstract ideas click instantly.
+- Hand-drawn style typography and clean mathematical formulas that look like beautiful handwritten study notes.
+- Quick interactive concept checks at the end of each topic so you know you've mastered it before moving on.
 
-### Class 12 Physics (11 Chapters)
-15. Electrostatics & Capacitance
-16. Current Electricity
-17. Moving Charges and Magnetism
-18. Magnetism and Matter
-19. Electromagnetic Induction & AC
-20. Electromagnetic Waves
-21. Ray Optics & Optical Instruments
-22. Wave Optics
-23. Dual Nature of Radiation & Matter
-24. Atoms & Nuclei
-25. Semiconductor Electronics
+### ✍️ 2. Line-by-Line Solved Examples
+- Hundreds of textbook and numerical problems solved step-by-step.
+- Clearly demonstrates how to interpret word problems, choose the right governing law, substitute numbers with correct SI units, and arrive at the final answer.
+
+### 🏛️ 3. Authentic CBSE Board PYQ Vault (2020–2025)
+- Over **360 authentic questions** curated from recent CBSE Class 12 Board examinations and Class 11 annual papers.
+- Every question includes official **step-wise marking rubrics** (showing you where every `½ mark` and `1 mark` is awarded) so you know exactly how examiners evaluate your paper.
+- Filter by question format: Multiple Choice (MCQs), Short Answer (1–2 Marks), Long Answer (3–5 Marks), or Case-Based questions.
+
+### ⚡ 4. Playable Physics Simulations Lab
+Stop just imagining physics—see it and play with it! Explore 4 interactive real-time visual labs:
+- 🎯 **Projectile Motion & Trajectory**: Fire cannonballs at various launch angles and initial velocities to visualize range, maximum height, and parabolic paths.
+- 🧲 **Spring-Mass Oscillator (SHM)**: Watch simple harmonic motion in action, experiment with spring stiffness, mass, and damping resistance.
+- 🌈 **Snell's Law & Refraction**: Shine light beams across optical boundaries to witness refraction, critical angles, and Total Internal Reflection (TIR).
+- 🔬 **Bohr Atom Quantum Jumps**: Trigger electron orbital transitions and watch photons get absorbed or emitted across spectral lines.
+
+### ⚠️ 5. Examiner Traps & Pro Hacks
+- Every chapter features highlighted caution notes alerting you to the most common pitfalls that cost students marks:
+  - Sign convention traps in optics and thermodynamics.
+  - Unit conversion mistakes (grams to kilograms, centimeters to meters, microfarads to farads).
+  - Implicit assumptions (frictionless pulleys, massless strings, ideal gases).
+
+### 🚀 6. Safe & Stress-Free Advanced Studies (JEE & NEET)
+- Want to go beyond the board syllabus? High-yield competitive lemmas, calculus extensions, and entrance numericals are placed in a dedicated **Advanced Studies** tab.
+- Includes our signature **CBSE Peace-of-Mind Guarantee**: *Students aiming solely for 95%+ on their CBSE Board exams can safely focus on the primary tabs without missing a single board mark.*
+
+### ✏️ 7. Digital Whiteboard Scratchpad
+- No need to search for rough paper when practicing! Open the floating whiteboard anywhere in the app to sketch free-body diagrams (FBDs), practice ray optics drawings, or scribble numerical calculations.
+- Includes multiple colored ink pens, eraser, stroke controls, and undo/redo.
+
+### 📅 8. Personalized Study & Exam Planner
+- Set your target exam date (CBSE Boards, JEE Main, NEET, or School Term Exams).
+- Choose how many hours you want to study each day and pick which chapters you want to focus on.
+- The app generates a customized daily revision roadmap with checklists and countdown timers.
+
+### 🤖 9. Friendly Physics Avatars & Domain Mascots
+- Study alongside 6 illustrated avatar companions—from **Sir Isaac** and **Sparky Tesla** to **Photon Einstein** and **Vector Bot**.
+- Animated mascots guide you through the 3 major realms of physics:
+  - ⚙️ **Vector** for Mechanics & Gravitation
+  - ⚡ **Amp** for Electricity & Magnetism
+  - 🌈 **Photon** for Optics & Modern Physics
 
 ---
 
-## 🚀 Running & Verification
+## 📚 Complete Syllabus Overview (All 25 Chapters)
 
-```bash
-# Get dependencies
-flutter pub get
+### 📘 Class 11 Senior Physics
+| No. | Chapter Title | Domain |
+| :---: | :--- | :--- |
+| **01** | Units and Measurements | Fundamental & Mechanics |
+| **02** | Motion in a Straight Line | Kinematics |
+| **03** | Motion in a Plane (Vectors & Projectiles) | Kinematics |
+| **04** | Laws of Motion & Friction | Dynamics |
+| **05** | Work, Energy and Power | Dynamics & Energy |
+| **06** | System of Particles & Rotational Motion | Rotational Mechanics |
+| **07** | Gravitation | Planetary & Field Dynamics |
+| **08** | Mechanical Properties of Solids (Elasticity) | Properties of Matter |
+| **09** | Mechanical Properties of Fluids | Hydrostatics & Dynamics |
+| **10** | Thermal Properties of Matter & Calorimetry | Thermal Physics |
+| **11** | Thermodynamics & Heat Engines | Thermal Physics |
+| **12** | Kinetic Theory of Gases | Molecular Physics |
+| **13** | Oscillations & Simple Harmonic Motion (SHM) | Periodic Motion |
+| **14** | Waves & Sound (Doppler & Superposition) | Wave Mechanics |
 
-# Run test suite
-flutter test
+### 📙 Class 12 Senior Physics
+| No. | Chapter Title | Domain |
+| :---: | :--- | :--- |
+| **15** | Electrostatics: Charges, Fields & Potential | Electromagnetism |
+| **16** | Current Electricity & Kirchhoff's Laws | Electric Circuits |
+| **17** | Moving Charges and Magnetism (Biot-Savart & Ampère) | Magnetism |
+| **18** | Magnetism and Matter (Earth Magnetism & Materials) | Magnetic Materials |
+| **19** | Electromagnetic Induction & Alternating Current (AC) | Electrodynamics |
+| **20** | Electromagnetic Waves & Spectrum | EM Radiation |
+| **21** | Ray Optics and Optical Instruments | Geometric Optics |
+| **22** | Wave Optics (Interference & Diffraction) | Physical Optics |
+| **23** | Dual Nature of Radiation and Matter (Photoelectric) | Quantum Physics |
+| **24** | Atoms and Nuclei (Rutherford, Bohr, Radioactivity) | Nuclear Physics |
+| **25** | Semiconductor Electronics & Logic Gates | Electronics |
 
-# Run app on Windows or connected device
-flutter run -d windows
-```
+---
+
+## 🏛️ About Kedar's STEM Academy
+
+**Kedar's Physics Engine** is part of the unified **STEM Engine Trilogy** created by **Kedar Krishna**:
+- ⚛️ **Kedar's Physics Engine** — Warm Dotted Notebook Edition
+- 🧪 **Kedar's Chemistry Engine** — Visual Interactive Chemistry
+- 📐 **Kedar's Mathematics Engine** — Proofs, Intuition & Problem Solving
+
+Designed with love, scientific rigor, and deep respect for every student's learning journey. Happy studying! 🚀
